@@ -1,0 +1,19 @@
+scenarios:
+  scheduling_basic:
+    name: Simple appointment scheduling
+    patient_name: Jordan Lee
+    goal: Schedule a routine appointment for next week.
+    opening_message: "I need to schedule an appointment for next week."
+    details:
+      - "The patient prefers Tuesday or Thursday morning."
+      - "The patient can provide their date of birth if asked."
+      - "The patient should ask one follow-up question about appointment prep."
+
+  refill_request:
+    name: Medication refill request
+    patient_name: Morgan Chen
+    goal: Request a refill and understand next steps.
+    opening_message: "I need help refilling one of my medications."
+    details:
+      - "The patient is not sure whether they need an appointment first."
+      - "The patient should ask how long the refill usually takes."

@@ -1,0 +1,24 @@
+[project]
+name = "pgaibot"
+version = "0.1.0"
+description = "Minimal voice caller for the Pretty Good AI engineering challenge"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "httpx>=0.27.0",
+    "python-dotenv>=1.0.1",
+    "twilio>=9.0.0",
+    "uvicorn[standard]>=0.30.0",
+    "pyyaml>=6.0.0",
+]
+
+[project.scripts]
+pgaibot = "pgaibot.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

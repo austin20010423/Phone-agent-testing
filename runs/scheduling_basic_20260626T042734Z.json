@@ -1,0 +1,36 @@
+{
+  "artifact_id": "scheduling_basic_20260626T042734Z",
+  "call_sid": "CAd86d4a1558635eff5cf3fe468242c12f",
+  "scenario_key": "scheduling_basic",
+  "scenario": {
+    "name": "Simple appointment scheduling",
+    "patient_name": "Jordan Lee",
+    "goal": "Schedule a routine appointment for next week.",
+    "end_when": [
+      "Appointment time is confirmed.",
+      "Preparation instructions are understood."
+    ],
+    "details": [
+      "The patient prefers Tuesday or Thursday morning.",
+      "The patient can provide their date of birth if asked.",
+      "The patient should ask one follow-up question about appointment prep."
+    ]
+  },
+  "events": [
+    {
+      "timestamp": "2026-06-26T04:27:39+00:00",
+      "speaker": "Agent",
+      "text": "Call may be recorded for quality and training purposes."
+    }
+  ],
+  "recording": {
+    "recording_sid": "REd1ae166a662427cbf0d4a75a72203946",
+    "recording_status": "completed",
+    "recording_duration": "25",
+    "updated_at": "2026-06-26T04:28:03+00:00",
+    "local_path": "/Users/chenchaoshiang/SideProject/PrettyGoodAI/recordings/scheduling_basic_20260626T042734Z.mp3",
+    "downloaded_at": "2026-06-26T04:28:04+00:00"
+  },
+  "started_at": "2026-06-26T04:27:34+00:00",
+  "updated_at": "2026-06-26T04:27:39+00:00"
+}

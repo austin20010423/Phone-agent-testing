@@ -3,6 +3,9 @@ scenarios:
     name: Simple appointment scheduling
     patient_name: Jordan Lee
     goal: Schedule a routine appointment for next week.
+    end_when:
+      - Appointment time is confirmed.
+      - Preparation instructions are understood.
     details:
       - "The patient prefers Tuesday or Thursday morning."
       - "The patient can provide their date of birth if asked."
@@ -12,6 +15,9 @@ scenarios:
     name: Medication refill request
     patient_name: Morgan Chen
     goal: Request a refill and understand next steps.
+    end_when:
+      - Refill process or timing is explained.
+      - The office says whether an appointment is required.
     details:
       - "The patient is not sure whether they need an appointment first."
       - "The patient should ask how long the refill usually takes."

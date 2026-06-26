@@ -20,7 +20,7 @@ from pgaibot.scenarios import ScenarioError, load_scenario
 app = FastAPI(title="Pretty Good AI Voice Bot")
 SESSIONS: dict[str, dict[str, Any]] = {}
 MIN_PATIENT_TURNS = 4
-MAX_PATIENT_TURNS = 8
+MAX_PATIENT_TURNS = 15
 
 
 @app.get("/health")
@@ -91,8 +91,9 @@ async def voice_respond(request: Request, call_sid: str, scenario: str) -> Respo
         persist_session(session)
         return twiml_response(say_and_hangup(fallback))
 
-    end_call = patient_reply.end_call and count_speaker_turns(session, "Patient") >= MIN_PATIENT_TURNS
-    if count_speaker_turns(session, "Patient") >= MAX_PATIENT_TURNS:
+    patient_turns = count_speaker_turns(session, "Patient")
+    end_call = patient_reply.end_call and patient_turns >= MIN_PATIENT_TURNS
+    if patient_turns >= MAX_PATIENT_TURNS and not end_call:
         end_call = True
 
     append_event(session, "Patient", patient_reply.reply, meta={"end_call": end_call})

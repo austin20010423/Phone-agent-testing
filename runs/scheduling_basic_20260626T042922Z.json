@@ -1,0 +1,166 @@
+{
+  "artifact_id": "scheduling_basic_20260626T042922Z",
+  "call_sid": "CAc1898e3878b33c01dbb65ab72518800c",
+  "scenario_key": "scheduling_basic",
+  "scenario": {
+    "name": "Simple appointment scheduling",
+    "patient_name": "Jordan Lee",
+    "goal": "Schedule a routine appointment for next week.",
+    "end_when": [
+      "Appointment time is confirmed.",
+      "Preparation instructions are understood."
+    ],
+    "details": [
+      "The patient prefers Tuesday or Thursday morning.",
+      "The patient can provide their date of birth if asked.",
+      "The patient should ask one follow-up question about appointment prep."
+    ]
+  },
+  "events": [
+    {
+      "timestamp": "2026-06-26T04:29:28+00:00",
+      "speaker": "Agent",
+      "text": "Call may be recorded for quality and training purposes."
+    },
+    {
+      "timestamp": "2026-06-26T04:29:31+00:00",
+      "speaker": "Patient",
+      "text": "Sure, I understand. I'd like to schedule a routine appointment for next week, preferably Tuesday or Thursday morning.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T04:29:36+00:00",
+      "speaker": "Agent",
+      "text": "Am I speaking with Jordan?"
+    },
+    {
+      "timestamp": "2026-06-26T04:29:39+00:00",
+      "speaker": "Patient",
+      "text": "Yes, this is Jordan Lee.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T04:29:49+00:00",
+      "speaker": "Agent",
+      "text": "Please provide your date of birth."
+    },
+    {
+      "timestamp": "2026-06-26T04:29:51+00:00",
+      "speaker": "Patient",
+      "text": "My date of birth is May 10, 1985.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T04:30:02+00:00",
+      "speaker": "Agent",
+      "text": "The birthday doesn't match our records, but for demo purposes, I'll accept it. How can I help you today?"
+    },
+    {
+      "timestamp": "2026-06-26T04:30:06+00:00",
+      "speaker": "Patient",
+      "text": "I'd like to schedule a routine appointment for next week. I prefer either Tuesday or Thursday morning, if that's available.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T04:30:17+00:00",
+      "speaker": "Agent",
+      "text": "You'd like to book a general office, visit for routine care next week. Is that right?"
+    },
+    {
+      "timestamp": "2026-06-26T04:30:20+00:00",
+      "speaker": "Patient",
+      "text": "Yes, that's right. Just a routine check-up, nothing urgent.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T04:30:31+00:00",
+      "speaker": "Agent",
+      "text": "Do you have a specific provider? And you'd like to see, or are you open to anyone available?"
+    },
+    {
+      "timestamp": "2026-06-26T04:30:34+00:00",
+      "speaker": "Patient",
+      "text": "I'm open to anyone available, as long as it's a morning slot on Tuesday or Thursday next week.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T04:30:48+00:00",
+      "speaker": "Patient",
+      "text": "Sorry, I did not catch that. Could you say that again?"
+    },
+    {
+      "timestamp": "2026-06-26T04:30:58+00:00",
+      "speaker": "Agent",
+      "text": "Like you already have a no problem. Would you like to reschedule your existing appointment, cancel it or keep it as is?"
+    },
+    {
+      "timestamp": "2026-06-26T04:31:01+00:00",
+      "speaker": "Patient",
+      "text": "I don't have an existing appointment, so I'd just like to book a new one. Can you please check what's available for Tuesday or Thursday morning next week?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T04:31:26+00:00",
+      "speaker": "Agent",
+      "text": "It appears our system thinks you already have a routine appointment booked so I can't schedule another of the same type. Would you like me to connect you with a team member to sort this out?"
+    },
+    {
+      "timestamp": "2026-06-26T04:31:29+00:00",
+      "speaker": "Patient",
+      "text": "I don\u2019t think I have an existing appointment. Could you please just look up what\u2019s available for Tuesday or Thursday morning next week and help me book a new one?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T04:31:38+00:00",
+      "speaker": "Agent",
+      "text": "It looks like there's a mix up with your appointment status."
+    },
+    {
+      "timestamp": "2026-06-26T04:31:41+00:00",
+      "speaker": "Patient",
+      "text": "That's a bit confusing. Can you still help me check if there's an open morning slot on Tuesday or Thursday next week?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T04:31:53+00:00",
+      "speaker": "Agent",
+      "text": "Routine visit please stay on the line. Connecting you to a representative please wait hello you've reached the pretty good. AI test line goodbye."
+    },
+    {
+      "timestamp": "2026-06-26T04:31:56+00:00",
+      "speaker": "Patient",
+      "text": "Okay, thank you. Goodbye.",
+      "meta": {
+        "end_call": true
+      }
+    }
+  ],
+  "recording": {
+    "recording_sid": "REa17454290fa44d58df16a26adeaaa60d",
+    "recording_status": "completed",
+    "recording_duration": "157",
+    "updated_at": "2026-06-26T04:32:03+00:00",
+    "local_path": "/Users/chenchaoshiang/SideProject/PrettyGoodAI/recordings/scheduling_basic_20260626T042922Z.mp3",
+    "downloaded_at": "2026-06-26T04:32:06+00:00"
+  },
+  "started_at": "2026-06-26T04:29:22+00:00",
+  "updated_at": "2026-06-26T04:31:56+00:00"
+}

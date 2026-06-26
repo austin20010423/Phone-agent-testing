@@ -64,12 +64,15 @@ class OpenRouterClient:
 
 def build_system_prompt(scenario: dict[str, Any], patient_turns: int) -> str:
     details = "\n".join(f"- {item}" for item in scenario.get("details", []))
+    end_when = "\n".join(f"- {item}" for item in scenario.get("end_when", []))
     return f"""
 You are simulating a realistic patient on a phone call with a medical office AI agent.
 
 Scenario name: {scenario.get("name", "unknown")}
 Patient name: {scenario.get("patient_name", "Patient")}
 Goal: {scenario.get("goal", "")}
+End the call only when:
+{end_when}
 Details:
 {details}
 
@@ -82,7 +85,8 @@ Rules:
 - Let the agent finish speaking before replying. Do not interrupt, talk over them, or answer in the middle of their sentence.
 - Ask follow-up questions or provide missing details when needed.
 - Steer toward the scenario goal.
-- Only set end_call to true when the goal is handled or blocked and there have been at least 4 patient turns.
+- Only set end_call to true when the end conditions above are satisfied.
+- Do not end just because the agent answered one question. Keep the call going until the goal is complete.
 
 Patient turns so far: {patient_turns}
 

@@ -1,0 +1,144 @@
+{
+  "artifact_id": "scheduling_basic_20260626T040414Z",
+  "call_sid": "CA3cd5f080d9cb71d4145558b9e46dacd8",
+  "scenario_key": "scheduling_basic",
+  "scenario": {
+    "name": "Simple appointment scheduling",
+    "patient_name": "Jordan Lee",
+    "goal": "Schedule a routine appointment for next week.",
+    "details": [
+      "The patient prefers Tuesday or Thursday morning.",
+      "The patient can provide their date of birth if asked.",
+      "The patient should ask one follow-up question about appointment prep."
+    ]
+  },
+  "events": [
+    {
+      "timestamp": "2026-06-26T04:04:20+00:00",
+      "speaker": "Agent",
+      "text": "Call may be recorded for quality and training purposes, but Espanol."
+    },
+    {
+      "timestamp": "2026-06-26T04:04:23+00:00",
+      "speaker": "Patient",
+      "text": "I'd like to schedule a routine appointment for next week, preferably on Tuesday or Thursday morning.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T04:04:28+00:00",
+      "speaker": "Agent",
+      "text": "Good AI. My speaking with Jordan"
+    },
+    {
+      "timestamp": "2026-06-26T04:04:31+00:00",
+      "speaker": "Patient",
+      "text": "I'd like to schedule a routine appointment for next week, preferably on Tuesday or Thursday morning.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T04:04:45+00:00",
+      "speaker": "Agent",
+      "text": "Can you please provide your date of birth?"
+    },
+    {
+      "timestamp": "2026-06-26T04:04:49+00:00",
+      "speaker": "Patient",
+      "text": "Sure, my date of birth is March 15, 1985.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T04:05:08+00:00",
+      "speaker": "Agent",
+      "text": "Just to confirm you'd like to book a general office, visit for routine care next week, preferably Tuesday or Thursday morning is that correct?"
+    },
+    {
+      "timestamp": "2026-06-26T04:05:11+00:00",
+      "speaker": "Patient",
+      "text": "Yes, that's correct. Either Tuesday or Thursday morning works best for me.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T04:05:32+00:00",
+      "speaker": "Agent",
+      "text": "I found morning openings next week on Wednesday, July 1st. There's a 10:00 a.m. slot with Dr. Zbigniew lucasi and 11 a.m. or 11:30 a.m. with Dr. Kelly Noble."
+    },
+    {
+      "timestamp": "2026-06-26T04:05:34+00:00",
+      "speaker": "Patient",
+      "text": "I really need Tuesday or Thursday if possible. Do you have any morning slots available on those days?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T04:05:38+00:00",
+      "speaker": "Agent",
+      "text": "Refer to hear about."
+    },
+    {
+      "timestamp": "2026-06-26T04:05:41+00:00",
+      "speaker": "Patient",
+      "text": "I'm sorry, could you repeat that? I didn't catch what you said about Tuesday or Thursday.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T04:05:47+00:00",
+      "speaker": "Agent",
+      "text": "To say something. Would you like to hear about Thursday morning, openings?"
+    },
+    {
+      "timestamp": "2026-06-26T04:05:49+00:00",
+      "speaker": "Patient",
+      "text": "Yes, please, Thursday morning would be great. What times are available?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T04:06:10+00:00",
+      "speaker": "Agent",
+      "text": "Heroes, Thursday morning options, 900 a.m. or 10:00 a.m. with Dr. Zig moo lukovski or 10 a.m. with Dr. Kelly Noble, would you like to book 1 of these?"
+    },
+    {
+      "timestamp": "2026-06-26T04:06:13+00:00",
+      "speaker": "Patient",
+      "text": "Yes, the 9 a.m. slot on Thursday with Dr. Zbigniew Lucasi sounds good. Also, is there anything I should do to prepare before the appointment?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T04:06:35+00:00",
+      "speaker": "Agent",
+      "text": "Your appointment is set for Thursday July 2nd at 9:00 a.m. with Dr. Zigni lucasi at Pivot Point Orthopedics."
+    },
+    {
+      "timestamp": "2026-06-26T04:06:38+00:00",
+      "speaker": "Patient",
+      "text": "Great, thank you for booking that. And just to clarify, is there anything I need to do beforehand, like fasting or bringing any medical records?",
+      "meta": {
+        "end_call": true
+      }
+    }
+  ],
+  "recording": {
+    "recording_sid": "REe9ca6fe2082432bca6140a8ad9a4810a",
+    "recording_status": "completed",
+    "recording_duration": "154",
+    "updated_at": "2026-06-26T04:06:52+00:00",
+    "local_path": "/Users/chenchaoshiang/SideProject/PrettyGoodAI/recordings/scheduling_basic_20260626T040414Z.mp3",
+    "downloaded_at": "2026-06-26T04:06:55+00:00"
+  },
+  "started_at": "2026-06-26T04:04:14+00:00",
+  "updated_at": "2026-06-26T04:06:38+00:00"
+}

@@ -1,0 +1,46 @@
+{
+  "artifact_id": "scheduling_basic_20260626T035809Z",
+  "call_sid": "CA3dcceb1ca534cb6067584cc92da56422",
+  "scenario_key": "scheduling_basic",
+  "scenario": {
+    "name": "Simple appointment scheduling",
+    "patient_name": "Jordan Lee",
+    "goal": "Schedule a routine appointment for next week.",
+    "opening_message": "I need to schedule an appointment for next week.",
+    "details": [
+      "The patient prefers Tuesday or Thursday morning.",
+      "The patient can provide their date of birth if asked.",
+      "The patient should ask one follow-up question about appointment prep."
+    ]
+  },
+  "events": [
+    {
+      "timestamp": "2026-06-26T03:58:09+00:00",
+      "speaker": "Patient",
+      "text": "I need to schedule an appointment for next week."
+    },
+    {
+      "timestamp": "2026-06-26T03:58:15+00:00",
+      "speaker": "Agent",
+      "text": "This call may be recorded for quality and training purposes."
+    },
+    {
+      "timestamp": "2026-06-26T03:58:31+00:00",
+      "speaker": "Patient",
+      "text": "Sorry, I had trouble hearing that. I will call back later. Goodbye.",
+      "meta": {
+        "error": "TypeError: the JSON object must be str, bytes or bytearray, not NoneType"
+      }
+    }
+  ],
+  "recording": {
+    "recording_sid": "RE924d31e67b51afedb84612be01f4bc6f",
+    "recording_status": "completed",
+    "recording_duration": "25",
+    "updated_at": "2026-06-26T03:58:38+00:00",
+    "local_path": "/Users/chenchaoshiang/SideProject/PrettyGoodAI/recordings/scheduling_basic_20260626T035809Z.mp3",
+    "downloaded_at": "2026-06-26T03:58:39+00:00"
+  },
+  "started_at": "2026-06-26T03:58:09+00:00",
+  "updated_at": "2026-06-26T03:58:31+00:00"
+}

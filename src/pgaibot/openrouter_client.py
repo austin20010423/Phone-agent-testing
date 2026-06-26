@@ -55,7 +55,10 @@ class OpenRouterClient:
         if response.status_code >= 400:
             raise OpenRouterError(f"OpenRouter request failed: {response.status_code} {response.text}")
 
-        content = response.json()["choices"][0]["message"]["content"]
+        data = response.json()
+        choice = (data.get("choices") or [{}])[0]
+        message = choice.get("message") or {}
+        content = message.get("content")
         return parse_patient_reply(content)
 
 
@@ -102,17 +105,19 @@ def build_conversation_messages(events: list[dict[str, Any]]) -> list[dict[str, 
     return messages
 
 
-def parse_patient_reply(content: str) -> PatientReply:
+def parse_patient_reply(content: Any) -> PatientReply:
+    if content is None:
+        return PatientReply(reply="Could you repeat that?", end_call=False)
     try:
-        payload = json.loads(content)
+        payload = json.loads(content) if isinstance(content, str) else content
         reply = str(payload.get("reply", "")).strip()
         end_call = bool(payload.get("end_call", False))
-    except json.JSONDecodeError:
-        reply = content.strip()
+    except (json.JSONDecodeError, AttributeError, TypeError):
+        reply = str(content).strip()
         end_call = False
 
     if not reply:
-        reply = "Could you help me with that?"
+        reply = "Could you repeat that?"
     return PatientReply(reply=reply, end_call=end_call)
 
 

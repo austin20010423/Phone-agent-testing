@@ -38,7 +38,6 @@ async def voice_start(request: Request, scenario: str) -> Response:
     except ScenarioError as exc:
         return twiml_response(say_and_hangup(str(exc)))
 
-    opening = scenario_data.get("opening_message", "I need help with an appointment.")
     artifact_id = build_artifact_id(scenario)
     session = {
         "artifact_id": artifact_id,
@@ -50,11 +49,10 @@ async def voice_start(request: Request, scenario: str) -> Response:
         "started_at": now_iso(),
         "updated_at": now_iso(),
     }
-    append_event(session, "Patient", opening)
     SESSIONS[call_sid] = session
     persist_session(session)
 
-    return twiml_response(gather_twiml(opening, action_url("/voice/respond", call_sid, scenario)))
+    return twiml_response(listen_twiml(action_url("/voice/respond", call_sid, scenario)))
 
 
 @app.post("/voice/respond")
@@ -201,6 +199,14 @@ def gather_twiml(message: str, action: str) -> str:
   <Gather input="speech" action="{escape(action)}" method="POST" speechTimeout="auto" timeout="8">
     <Say>{escape(message)}</Say>
   </Gather>
+  <Redirect method="POST">{escape(action)}</Redirect>
+</Response>"""
+
+
+def listen_twiml(action: str) -> str:
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <Gather input="speech" action="{escape(action)}" method="POST" speechTimeout="auto" timeout="15"></Gather>
   <Redirect method="POST">{escape(action)}</Redirect>
 </Response>"""
 

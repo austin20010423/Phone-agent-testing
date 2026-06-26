@@ -63,13 +63,21 @@ class OpenRouterClient:
 
 
 def build_system_prompt(scenario: dict[str, Any], patient_turns: int) -> str:
+    persona = scenario.get("persona", {})
+    persona_background = "\n".join(f"- {item}" for item in persona.get("background", []))
+    persona_voice = ", ".join(persona.get("voice", []))
     details = "\n".join(f"- {item}" for item in scenario.get("details", []))
     end_when = "\n".join(f"- {item}" for item in scenario.get("end_when", []))
     return f"""
 You are simulating a realistic patient on a phone call with a medical office AI agent.
 
+Shared persona:
+Name: {persona.get("name", "Avery Chen")}
+Voice style: {persona_voice}
+Background:
+{persona_background}
+
 Scenario name: {scenario.get("name", "unknown")}
-Patient name: {scenario.get("patient_name", "Patient")}
 Goal: {scenario.get("goal", "")}
 End the call only when:
 {end_when}

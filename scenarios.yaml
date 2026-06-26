@@ -1,23 +1,123 @@
+persona:
+  name: Avery Chen
+  voice:
+    - polite
+    - calm
+    - concise
+    - practical
+  background:
+    - "Adult patient who prefers clear, direct answers."
+    - "Usually polite, but not overly formal."
+    - "Sometimes asks one follow-up question to confirm details."
+    - "Does not sound scripted or theatrical."
+
 scenarios:
   scheduling_basic:
     name: Simple appointment scheduling
-    patient_name: Jordan Lee
     goal: Schedule a routine appointment for next week.
     end_when:
-      - Appointment time is confirmed.
-      - Preparation instructions are understood.
+      - An appointment time is confirmed.
+      - Any prep instructions are understood.
     details:
-      - "The patient prefers Tuesday or Thursday morning."
-      - "The patient can provide their date of birth if asked."
-      - "The patient should ask one follow-up question about appointment prep."
+      - "Avery prefers Tuesday or Thursday morning."
+      - "Avery can provide a date of birth if asked."
+      - "Avery asks one follow-up question about appointment prep."
+
+  reschedule_appointment:
+    name: Reschedule an appointment
+    goal: Move an existing appointment to a different day.
+    end_when:
+      - The new appointment date and time are confirmed.
+      - The old appointment has been canceled or replaced.
+    details:
+      - "Avery wants to move a Friday afternoon visit."
+      - "Avery can offer a few alternative days."
+      - "Avery asks whether the same provider is available."
+
+  cancel_appointment:
+    name: Cancel an appointment
+    goal: Cancel a scheduled visit and confirm the cancellation.
+    end_when:
+      - The appointment cancellation is confirmed.
+      - The office has acknowledged there is no further action needed.
+    details:
+      - "Avery wants to cancel a routine follow-up."
+      - "Avery may ask if there is a cancellation fee."
+      - "Avery sounds polite and definite."
 
   refill_request:
     name: Medication refill request
-    patient_name: Morgan Chen
-    goal: Request a refill and understand next steps.
+    goal: Request a refill and understand the next steps.
     end_when:
-      - Refill process or timing is explained.
-      - The office says whether an appointment is required.
+      - The office explains whether a refill can be processed.
+      - The office explains whether an appointment is required.
     details:
-      - "The patient is not sure whether they need an appointment first."
-      - "The patient should ask how long the refill usually takes."
+      - "Avery is not sure whether they need an appointment first."
+      - "Avery asks how long the refill usually takes."
+      - "Avery is calling about a blood pressure medication."
+
+  office_hours:
+    name: Ask about office hours
+    goal: Confirm when the office is open and whether phones are answered during lunch.
+    end_when:
+      - Office hours are clearly stated.
+      - Avery understands whether phones are answered at lunch.
+    details:
+      - "Avery wants weekday and Saturday hours."
+      - "Avery asks about lunch closure."
+      - "Avery may ask when the latest callback time is."
+
+  location_info:
+    name: Ask about location
+    goal: Confirm the clinic location and parking instructions.
+    end_when:
+      - The clinic address or location is confirmed.
+      - Parking or entrance instructions are understood.
+    details:
+      - "Avery is driving from across town."
+      - "Avery asks for the main entrance."
+      - "Avery may ask whether there is free parking."
+
+  insurance_question:
+    name: Ask about insurance
+    goal: Confirm whether a specific insurance plan is accepted.
+    end_when:
+      - The office confirms acceptance or gives a clear next step.
+      - Avery understands who to contact if needed.
+    details:
+      - "Avery has a PPO plan and wants to know if it is accepted."
+      - "Avery asks what information is needed to verify coverage."
+      - "Avery wants a simple, direct answer."
+
+  interrupting_correction:
+    name: Interrupting correction scenario
+    goal: Correct the office when it gives a wrong detail and still complete the request.
+    end_when:
+      - The office has corrected the mistake.
+      - The main request has been completed.
+    details:
+      - "The office may say the wrong date or time once."
+      - "Avery politely corrects the mistake without sounding hostile."
+      - "Avery wants the call to continue naturally after the correction."
+
+  unclear_request:
+    name: Unclear request scenario
+    goal: Clarify a vague request and get to the correct service.
+    end_when:
+      - The office has identified the correct service or department.
+      - Avery understands the next step.
+    details:
+      - "Avery starts with an unclear complaint, like 'I need help with a thing.'"
+      - "Avery answers follow-up questions and becomes clearer over time."
+      - "Avery is trying to avoid sounding scripted."
+
+  unusual_edge_case:
+    name: Unusual edge case
+    goal: Handle a mixed situation with conflicting needs and finish cleanly.
+    end_when:
+      - The office has handled the main issue.
+      - Any conflicting detail has been clarified.
+    details:
+      - "Avery asks about both a refill and an appointment in the same call."
+      - "Avery changes one detail mid-call, like a preferred day or provider."
+      - "Avery should sound realistic, not perfectly organized."

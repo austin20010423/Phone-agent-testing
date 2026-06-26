@@ -1,3 +1,0 @@
-[2026-06-26T03:58:09+00:00] Patient: I need to schedule an appointment for next week.
-[2026-06-26T03:58:15+00:00] Agent: This call may be recorded for quality and training purposes.
-[2026-06-26T03:58:31+00:00] Patient: Sorry, I had trouble hearing that. I will call back later. Goodbye.

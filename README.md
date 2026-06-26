@@ -4,6 +4,16 @@ Python voice bot for the Pretty Good AI engineering challenge.
 
 The bot places outbound calls to the challenge test number, runs a scenario-driven patient conversation, records the call, stores transcripts locally, and downloads the completed audio recording after hangup.
 
+## Quick Start
+
+After setup, the normal run path is:
+
+```bash
+uv run pgaibot call --scenario scheduling_basic
+```
+
+That command starts the outbound call using the scenario you choose. The webhook server and tunnel still need to be running in separate terminals for a real conversation.
+
 ## What It Uses
 
 - Twilio Programmable Voice for outbound calls, speech gathering, and call recording
@@ -17,8 +27,8 @@ The call flow is intentionally simple:
 
 1. Twilio calls the challenge number.
 2. Twilio requests `/voice/start` from this app.
-3. The app speaks the patient opening with `<Say>`.
-4. Twilio listens with `<Gather input="speech">`.
+3. The app listens first, then starts the conversation with `<Gather input="speech">`.
+4. Twilio sends speech results to `/voice/respond`.
 5. The app sends the recognized speech to OpenRouter.
 6. OpenRouter returns the next patient reply.
 7. The loop continues until the scenario is complete.
@@ -56,6 +66,7 @@ Install dependencies:
 uv venv
 source .venv/bin/activate
 uv pip install -e .
+cp .env.example .env
 ```
 
 ## Twilio Setup
@@ -106,7 +117,15 @@ uv run pgaibot call --scenario scheduling_basic
 Available scenarios live in `scenarios.yaml`, for example:
 
 - `scheduling_basic`
+- `reschedule_appointment`
+- `cancel_appointment`
 - `refill_request`
+- `office_hours`
+- `location_info`
+- `insurance_question`
+- `interrupting_correction`
+- `unclear_request`
+- `unusual_edge_case`
 
 ## Artifacts
 
@@ -135,6 +154,7 @@ uv run pgaibot download-recording <scenario>_<timestamp>
 ## Notes
 
 - The bot is designed to avoid over-engineering.
-- The patient should listen first, then answer.
-- The patient should not greet the agent with a generic hello; it should begin with the actual request or response.
+- The patient listens first, then answers.
+- The patient does not greet the agent with a generic hello; it begins with the actual request or response.
 - The implementation is focused on producing the required 10 recorded conversations and supporting artifacts.
+

@@ -1,0 +1,5 @@
+# Architecture
+
+This is a Python voice bot built around a single Twilio outbound call flow and a FastAPI webhook server. Twilio places the call to the fixed test number, then the app uses turn-by-turn `Say` + `Gather` interactions to keep the conversation simple and reliable. The server stores session state in memory for the active call, writes a transcript of every turn, and saves the completed call artifacts locally as JSON, TXT, and MP3 files. Scenario behavior lives in `scenarios.yaml`, which keeps the patient persona and per-call goals separate from the code.
+
+The main design choice was to keep the system deliberately small instead of building a realtime audio bridge or a larger agent framework. Turn-by-turn speech is less ambitious than streaming audio, but it is easier to debug, produces predictable transcripts, and fits the challenge requirement of full multi-turn calls. OpenRouter handles the patient-side response generation, while Twilio handles telephony, recording, and the speech webhook loop. That separation keeps the code focused on the challenge goal: complete, natural phone conversations with clear local evidence for review.

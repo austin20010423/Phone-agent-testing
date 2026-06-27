@@ -1,0 +1,126 @@
+{
+  "artifact_id": "refill_request_20260626_234347",
+  "call_sid": "CAae4ec1dd53ce5b1619cb17448599b7ec",
+  "scenario_key": "refill_request",
+  "scenario": {
+    "name": "Medication refill request",
+    "goal": "Request a refill and understand the next steps.",
+    "end_when": [
+      "The office explains whether a refill can be processed.",
+      "The office explains whether an appointment is required."
+    ],
+    "details": [
+      "Avery is not sure whether they need an appointment first.",
+      "Avery asks how long the refill usually takes.",
+      "Avery is calling about a blood pressure medication."
+    ]
+  },
+  "events": [
+    {
+      "timestamp": "2026-06-26T23:43:53+00:00",
+      "speaker": "Agent",
+      "text": "Call may be recorded for quality and training purposes."
+    },
+    {
+      "timestamp": "2026-06-26T23:43:57+00:00",
+      "speaker": "Patient",
+      "text": "I need a refill on my blood pressure medication, but I'm not sure if I need to come in for an appointment first.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:44:02+00:00",
+      "speaker": "Agent",
+      "text": "Am I speaking with Jordan?"
+    },
+    {
+      "timestamp": "2026-06-26T23:44:07+00:00",
+      "speaker": "Patient",
+      "text": "No, this is Avery Chen. I'm calling about a refill for my blood pressure medication.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:44:23+00:00",
+      "speaker": "Agent",
+      "text": "Please provide the full name and date of birth of the patient needing a refill."
+    },
+    {
+      "timestamp": "2026-06-26T23:44:25+00:00",
+      "speaker": "Patient",
+      "text": "Sure, my full name is Avery Chen and my date of birth is March 15, 1982.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:44:46+00:00",
+      "speaker": "Agent",
+      "text": "Just to confirm, I have your name as Avery Chen and your date of birth as March 15th 1982. Is that correct? If so, please spell your first and last name for me,"
+    },
+    {
+      "timestamp": "2026-06-26T23:44:47+00:00",
+      "speaker": "Patient",
+      "text": "Yes, that's correct. My first name is spelled A-V-E-R-Y, and my last name is C-H-E-N.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:45:12+00:00",
+      "speaker": "Agent",
+      "text": "I have your phone number is 817-406-8089 and your date of birth is March 15th 1982."
+    },
+    {
+      "timestamp": "2026-06-26T23:45:14+00:00",
+      "speaker": "Patient",
+      "text": "That phone number sounds right. So can you tell me if I need an appointment before you can process the refill, and about how long it usually takes?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:45:27+00:00",
+      "speaker": "Agent",
+      "text": "I can't receive further right now but I can make sure our clitics support team follows up with you."
+    },
+    {
+      "timestamp": "2026-06-26T23:45:29+00:00",
+      "speaker": "Patient",
+      "text": "I appreciate that, but I still don't know if I need an appointment or how long the refill usually takes. Can you clarify before I hang up?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:45:38+00:00",
+      "speaker": "Agent",
+      "text": "Connecting you to a representative please wait hello you reached the pretty good. AI test line goodbye."
+    },
+    {
+      "timestamp": "2026-06-26T23:45:41+00:00",
+      "speaker": "Patient",
+      "text": "Could you repeat that?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:45:47+00:00",
+      "speaker": "Patient",
+      "text": "Sorry, I did not catch that. Could you say that again?"
+    }
+  ],
+  "recording": {
+    "recording_sid": "REa2f908a611afd19b258d3af483211497",
+    "recording_status": "completed",
+    "recording_duration": "116",
+    "updated_at": "2026-06-26T23:45:52+00:00",
+    "local_path": "/Users/chenchaoshiang/SideProject/PrettyGoodAI/recordings/refill_request_20260626_234347.mp3",
+    "downloaded_at": "2026-06-26T23:45:54+00:00"
+  },
+  "started_at": "2026-06-26T23:43:47+00:00",
+  "updated_at": "2026-06-26T23:45:47+00:00"
+}

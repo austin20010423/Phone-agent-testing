@@ -1,0 +1,178 @@
+{
+  "artifact_id": "office_hours_20260626_234915",
+  "call_sid": "CAd9bdbb60cc9aae7ce87852acb7d4fb92",
+  "scenario_key": "office_hours",
+  "scenario": {
+    "name": "Ask about office hours",
+    "goal": "Confirm when the office is open and whether phones are answered during lunch.",
+    "end_when": [
+      "Office hours are clearly stated.",
+      "Avery understands whether phones are answered at lunch."
+    ],
+    "details": [
+      "Avery wants weekday and Saturday hours.",
+      "Avery asks about lunch closure.",
+      "Avery may ask when the latest callback time is."
+    ]
+  },
+  "events": [
+    {
+      "timestamp": "2026-06-26T23:49:20+00:00",
+      "speaker": "Agent",
+      "text": "Call may be recorded for quality and training purposes."
+    },
+    {
+      "timestamp": "2026-06-26T23:49:23+00:00",
+      "speaker": "Patient",
+      "text": "Could you repeat that?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:49:30+00:00",
+      "speaker": "Agent",
+      "text": "Of pretty good. AI. Am I speaking with Jordan"
+    },
+    {
+      "timestamp": "2026-06-26T23:49:33+00:00",
+      "speaker": "Patient",
+      "text": "Could you repeat that?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:49:40+00:00",
+      "speaker": "Agent",
+      "text": "Of course, this is Pivot Point Orthopedics."
+    },
+    {
+      "timestamp": "2026-06-26T23:49:42+00:00",
+      "speaker": "Patient",
+      "text": "Got it. I\u2019m calling to check your office hours\u2014what days are you open during the week and on Saturdays?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:50:00+00:00",
+      "speaker": "Agent",
+      "text": "We're open Monday through Friday. The clinic is closed. On Saturdays. Would you like details about our weekday hours?"
+    },
+    {
+      "timestamp": "2026-06-26T23:50:04+00:00",
+      "speaker": "Patient",
+      "text": "Yes, could you tell me the weekday hours and whether you\u2019re open on Saturdays?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:50:20+00:00",
+      "speaker": "Agent",
+      "text": "we're open Monday, Tuesday and Thursday, from 9:00 a.m. to 4:00 p.m. Wednesday from 12:00 p.m. to 7:00 p.m. and Friday from 9:00 a.m. to 12:00 p.m."
+    },
+    {
+      "timestamp": "2026-06-26T23:50:21+00:00",
+      "speaker": "Patient",
+      "text": "Thanks. Do you have Saturday hours, and are the phones answered during your lunch break?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:50:27+00:00",
+      "speaker": "Agent",
+      "text": "Is there anything else you would like to? You're welcome. Let me know if you need anything else."
+    },
+    {
+      "timestamp": "2026-06-26T23:50:28+00:00",
+      "speaker": "Patient",
+      "text": "I still need to know\u2014do you have Saturday hours, and are the phones answered during lunch?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:50:41+00:00",
+      "speaker": "Agent",
+      "text": "We do not have Saturday hours, the clinic is closed on Saturdays."
+    },
+    {
+      "timestamp": "2026-06-26T23:50:42+00:00",
+      "speaker": "Patient",
+      "text": "And are the phones answered during your lunch break, or does the office close for lunch?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:50:46+00:00",
+      "speaker": "Agent",
+      "text": "Regular business."
+    },
+    {
+      "timestamp": "2026-06-26T23:50:48+00:00",
+      "speaker": "Patient",
+      "text": "I\u2019m sorry, just to be clear\u2014does that mean phones are still answered during the lunch hour, or does the office close for lunch?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:50:58+00:00",
+      "speaker": "Agent",
+      "text": "Question got cut off, no worries at all. Let me know if you have any other questions."
+    },
+    {
+      "timestamp": "2026-06-26T23:50:59+00:00",
+      "speaker": "Patient",
+      "text": "I appreciate that. Can you tell me if someone answers the phones during your lunch break, or if the office is closed for lunch?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:51:21+00:00",
+      "speaker": "Agent",
+      "text": "The office stays open during lunch and phones are answered throughout regular business hours. If you call during those times, someone will be available to help."
+    },
+    {
+      "timestamp": "2026-06-26T23:51:22+00:00",
+      "speaker": "Patient",
+      "text": "Great, that answers everything. Thanks for your help.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:51:31+00:00",
+      "speaker": "Agent",
+      "text": "Glad I could help have a great day."
+    },
+    {
+      "timestamp": "2026-06-26T23:51:32+00:00",
+      "speaker": "Patient",
+      "text": "Thanks, you too. Bye.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:51:35+00:00",
+      "speaker": "Patient",
+      "text": "Sorry, I did not catch that. Could you say that again?"
+    }
+  ],
+  "recording": {
+    "recording_sid": "REe7b69054626e930e10445bee13951101",
+    "recording_status": "completed",
+    "recording_duration": "140",
+    "updated_at": "2026-06-26T23:51:40+00:00",
+    "local_path": "/Users/chenchaoshiang/SideProject/PrettyGoodAI/recordings/office_hours_20260626_234915.mp3",
+    "downloaded_at": "2026-06-26T23:51:42+00:00"
+  },
+  "started_at": "2026-06-26T23:49:15+00:00",
+  "updated_at": "2026-06-26T23:51:35+00:00"
+}

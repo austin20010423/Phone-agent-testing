@@ -1,0 +1,22 @@
+[2026-06-26T23:31:37+00:00] Agent: This call may be recorded for quality and training purposes.
+[2026-06-26T23:31:38+00:00] Patient: I need to move my Friday afternoon appointment to a different day. Can you help me with that?
+[2026-06-26T23:31:45+00:00] Agent: part of pretty good AI, which speaking with Jordan
+[2026-06-26T23:31:49+00:00] Patient: Could you repeat that?
+[2026-06-26T23:31:54+00:00] Agent: Of course.
+[2026-06-26T23:31:56+00:00] Patient: I have a Friday afternoon appointment that I need to move to another day. Can you help me reschedule?
+[2026-06-26T23:32:00+00:00] Agent: With Jordan.
+[2026-06-26T23:32:05+00:00] Patient: Yes, I'd like to know if I can see the same provider on the new day.
+[2026-06-26T23:32:17+00:00] Agent: Please provide your date of birth.
+[2026-06-26T23:32:20+00:00] Patient: It's May 12, 1988.
+[2026-06-26T23:32:33+00:00] Agent: The birthday doesn't match our records but for demo purposes, I'll accept it. Let me check. If you didn't see the same provider on your new appointment day.
+[2026-06-26T23:32:34+00:00] Patient: That's fine, I understand. So, is the same provider available on the new day I choose?
+[2026-06-26T23:32:38+00:00] Agent: You have an upcoming great.
+[2026-06-26T23:32:40+00:00] Patient: I'm sorry, I didn't catch that. Could you check if my current provider is available on Wednesday or Thursday afternoon instead?
+[2026-06-26T23:33:06+00:00] Agent: I found openings with your current provider Dr. Ziggy lucasi on Thursday, July 2nd, at 3:00, p.m. Wednesday, July 8th, at 2:00, p.m. and Thursday, July 9th.
+[2026-06-26T23:33:09+00:00] Patient: Let's go with Thursday, July 2nd at 3:00 PM with Dr. Lucasi. Can you cancel my Friday appointment and book that one?
+[2026-06-26T23:33:28+00:00] Agent: Just to confirm, you want to move your current appointment to Thursday July 2nd at 3:00 p.m. with Dr. Ziggler lucasi.
+[2026-06-26T23:33:31+00:00] Patient: Yes, that's correct. Please cancel the Friday one and schedule me for Thursday July 2nd at 3:00 PM with Dr. Lucasi.
+[2026-06-26T23:33:48+00:00] Agent: Thank you. What is the reason you need to reschedule your appointment?
+[2026-06-26T23:33:51+00:00] Patient: I have a scheduling conflict that came up for Friday afternoon, so I need to move it to another day.
+[2026-06-26T23:34:08+00:00] Agent: You'd like to reschedule due to a scheduling conflict on Friday to confirm, I'll move your appointment to Thursday, July 2nd at 3:00 p.m. with Dr. Ziggy
+[2026-06-26T23:34:11+00:00] Patient: Yes, that sounds perfect. Thank you for confirming the new appointment and canceling the old one.

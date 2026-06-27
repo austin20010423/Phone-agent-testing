@@ -89,16 +89,16 @@ scenarios:
       - "Avery asks what information is needed to verify coverage."
       - "Avery wants a simple, direct answer."
 
-  interrupting_correction:
-    name: Interrupting correction scenario
-    goal: Correct the office when it gives a wrong detail and still complete the request.
+  callback_followup:
+    name: Callback follow-up
+    goal: Confirm a callback request and leave the conversation with the right next step.
     end_when:
-      - The office has corrected the mistake.
-      - The main request has been completed.
+      - The office confirms when to expect a callback.
+      - The follow-up question has been answered.
     details:
-      - "The office may say the wrong date or time once."
-      - "Avery politely corrects the mistake without sounding hostile."
-      - "Avery wants the call to continue naturally after the correction."
+      - "Avery missed a call from the office and is calling back."
+      - "Avery wants to know who will call back and when."
+      - "Avery should sound calm and slightly cautious."
 
   unclear_request:
     name: Unclear request scenario

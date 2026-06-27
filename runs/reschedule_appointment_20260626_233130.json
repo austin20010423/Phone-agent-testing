@@ -1,0 +1,173 @@
+{
+  "artifact_id": "reschedule_appointment_20260626_233130",
+  "call_sid": "CAa22257ce02b32e2843bd15b2e2ac6178",
+  "scenario_key": "reschedule_appointment",
+  "scenario": {
+    "name": "Reschedule an appointment",
+    "goal": "Move an existing appointment to a different day.",
+    "end_when": [
+      "The new appointment date and time are confirmed.",
+      "The old appointment has been canceled or replaced."
+    ],
+    "details": [
+      "Avery wants to move a Friday afternoon visit.",
+      "Avery can offer a few alternative days.",
+      "Avery asks whether the same provider is available."
+    ]
+  },
+  "events": [
+    {
+      "timestamp": "2026-06-26T23:31:37+00:00",
+      "speaker": "Agent",
+      "text": "This call may be recorded for quality and training purposes."
+    },
+    {
+      "timestamp": "2026-06-26T23:31:38+00:00",
+      "speaker": "Patient",
+      "text": "I need to move my Friday afternoon appointment to a different day. Can you help me with that?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:31:45+00:00",
+      "speaker": "Agent",
+      "text": "part of pretty good AI, which speaking with Jordan"
+    },
+    {
+      "timestamp": "2026-06-26T23:31:49+00:00",
+      "speaker": "Patient",
+      "text": "Could you repeat that?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:31:54+00:00",
+      "speaker": "Agent",
+      "text": "Of course."
+    },
+    {
+      "timestamp": "2026-06-26T23:31:56+00:00",
+      "speaker": "Patient",
+      "text": "I have a Friday afternoon appointment that I need to move to another day. Can you help me reschedule?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:32:00+00:00",
+      "speaker": "Agent",
+      "text": "With Jordan."
+    },
+    {
+      "timestamp": "2026-06-26T23:32:05+00:00",
+      "speaker": "Patient",
+      "text": "Yes, I'd like to know if I can see the same provider on the new day.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:32:17+00:00",
+      "speaker": "Agent",
+      "text": "Please provide your date of birth."
+    },
+    {
+      "timestamp": "2026-06-26T23:32:20+00:00",
+      "speaker": "Patient",
+      "text": "It's May 12, 1988.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:32:33+00:00",
+      "speaker": "Agent",
+      "text": "The birthday doesn't match our records but for demo purposes, I'll accept it. Let me check. If you didn't see the same provider on your new appointment day."
+    },
+    {
+      "timestamp": "2026-06-26T23:32:34+00:00",
+      "speaker": "Patient",
+      "text": "That's fine, I understand. So, is the same provider available on the new day I choose?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:32:38+00:00",
+      "speaker": "Agent",
+      "text": "You have an upcoming great."
+    },
+    {
+      "timestamp": "2026-06-26T23:32:40+00:00",
+      "speaker": "Patient",
+      "text": "I'm sorry, I didn't catch that. Could you check if my current provider is available on Wednesday or Thursday afternoon instead?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:33:06+00:00",
+      "speaker": "Agent",
+      "text": "I found openings with your current provider Dr. Ziggy lucasi on Thursday, July 2nd, at 3:00, p.m. Wednesday, July 8th, at 2:00, p.m. and Thursday, July 9th."
+    },
+    {
+      "timestamp": "2026-06-26T23:33:09+00:00",
+      "speaker": "Patient",
+      "text": "Let's go with Thursday, July 2nd at 3:00 PM with Dr. Lucasi. Can you cancel my Friday appointment and book that one?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:33:28+00:00",
+      "speaker": "Agent",
+      "text": "Just to confirm, you want to move your current appointment to Thursday July 2nd at 3:00 p.m. with Dr. Ziggler lucasi."
+    },
+    {
+      "timestamp": "2026-06-26T23:33:31+00:00",
+      "speaker": "Patient",
+      "text": "Yes, that's correct. Please cancel the Friday one and schedule me for Thursday July 2nd at 3:00 PM with Dr. Lucasi.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:33:48+00:00",
+      "speaker": "Agent",
+      "text": "Thank you. What is the reason you need to reschedule your appointment?"
+    },
+    {
+      "timestamp": "2026-06-26T23:33:51+00:00",
+      "speaker": "Patient",
+      "text": "I have a scheduling conflict that came up for Friday afternoon, so I need to move it to another day.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:34:08+00:00",
+      "speaker": "Agent",
+      "text": "You'd like to reschedule due to a scheduling conflict on Friday to confirm, I'll move your appointment to Thursday, July 2nd at 3:00 p.m. with Dr. Ziggy"
+    },
+    {
+      "timestamp": "2026-06-26T23:34:11+00:00",
+      "speaker": "Patient",
+      "text": "Yes, that sounds perfect. Thank you for confirming the new appointment and canceling the old one.",
+      "meta": {
+        "end_call": true
+      }
+    }
+  ],
+  "recording": {
+    "recording_sid": "RE97fa86f7ad3fd66faeb85f324eedc79b",
+    "recording_status": "completed",
+    "recording_duration": "167",
+    "updated_at": "2026-06-26T23:34:21+00:00",
+    "local_path": "/Users/chenchaoshiang/SideProject/PrettyGoodAI/recordings/reschedule_appointment_20260626_233130.mp3",
+    "downloaded_at": "2026-06-26T23:34:25+00:00"
+  },
+  "started_at": "2026-06-26T23:31:30+00:00",
+  "updated_at": "2026-06-26T23:34:11+00:00"
+}

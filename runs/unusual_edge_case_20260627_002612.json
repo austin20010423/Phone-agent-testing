@@ -1,0 +1,230 @@
+{
+  "artifact_id": "unusual_edge_case_20260627_002612",
+  "call_sid": "CA457b8d651ce41909ea14873ee8be6130",
+  "scenario_key": "unusual_edge_case",
+  "scenario": {
+    "name": "Unusual edge case",
+    "goal": "Handle a mixed situation with conflicting needs and finish cleanly.",
+    "end_when": [
+      "The office has handled the main issue.",
+      "Any conflicting detail has been clarified."
+    ],
+    "details": [
+      "Avery asks about both a refill and an appointment in the same call.",
+      "Avery changes one detail mid-call, like a preferred day or provider.",
+      "Avery should sound realistic, not perfectly organized."
+    ]
+  },
+  "events": [
+    {
+      "timestamp": "2026-06-27T00:26:18+00:00",
+      "speaker": "Agent",
+      "text": "This call may be recorded for quality and training purposes."
+    },
+    {
+      "timestamp": "2026-06-27T00:26:24+00:00",
+      "speaker": "Patient",
+      "text": "Oh, okay, that's fine. I actually have a couple things I need help with \u2014 a prescription refill and setting up an appointment.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:26:38+00:00",
+      "speaker": "Agent",
+      "text": "Can you please provide your date of birth?"
+    },
+    {
+      "timestamp": "2026-06-27T00:26:41+00:00",
+      "speaker": "Patient",
+      "text": "Sure, it's March 14, 1992.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:26:52+00:00",
+      "speaker": "Patient",
+      "text": "Sorry, I did not catch that. Could you say that again?"
+    },
+    {
+      "timestamp": "2026-06-27T00:27:06+00:00",
+      "speaker": "Agent",
+      "text": "The birthday doesn't match our records, but for demo purposes, I'll accept it. Let's start with your prescription refill."
+    },
+    {
+      "timestamp": "2026-06-27T00:27:10+00:00",
+      "speaker": "Patient",
+      "text": "I need a refill on my blood pressure medication, lisinopril. Also, I was hoping to schedule an appointment for a check-up soon.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:27:14+00:00",
+      "speaker": "Agent",
+      "text": "Today."
+    },
+    {
+      "timestamp": "2026-06-27T00:27:17+00:00",
+      "speaker": "Patient",
+      "text": "Could you repeat that?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:27:22+00:00",
+      "speaker": "Agent",
+      "text": "The medication you need refilled."
+    },
+    {
+      "timestamp": "2026-06-27T00:27:26+00:00",
+      "speaker": "Patient",
+      "text": "Oh, sorry \u2014 I need a refill on my lisinopril, 10 milligrams. And for the appointment, I was thinking maybe next week, but actually, I just realized I have a conflict on Wednesday. Could we look at Tuesday or Thursday instead?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:27:29+00:00",
+      "speaker": "Agent",
+      "text": "Take your time."
+    },
+    {
+      "timestamp": "2026-06-27T00:27:33+00:00",
+      "speaker": "Patient",
+      "text": "Thanks. So, for the appointment, Tuesday or Thursday next week would work better for me. And for the refill, is there anything else you need from me?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:27:41+00:00",
+      "speaker": "Agent",
+      "text": "No problem, whenever you're ready. Just let me know. The medication named you need refilled."
+    },
+    {
+      "timestamp": "2026-06-27T00:27:46+00:00",
+      "speaker": "Patient",
+      "text": "I need a refill on my blood pressure medication, lisinopril, 10 milligrams. And for the appointment, I'd prefer next Tuesday or Thursday, if that's available.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:28:01+00:00",
+      "speaker": "Agent",
+      "text": "How many days ago, did a pearl? Do you have left?"
+    },
+    {
+      "timestamp": "2026-06-27T00:28:06+00:00",
+      "speaker": "Patient",
+      "text": "I'm sorry, I didn't quite catch that. Do you mean how many days of medication I have left? I have about a week's worth left.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:28:27+00:00",
+      "speaker": "Agent",
+      "text": "Thanks for clarifying. I have your call back number as 817-406-8089. Is that correct?"
+    },
+    {
+      "timestamp": "2026-06-27T00:28:30+00:00",
+      "speaker": "Patient",
+      "text": "Yes, that looks right. So, can we go ahead with scheduling that appointment for next Tuesday or Thursday, and also process the refill?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:28:49+00:00",
+      "speaker": "Agent",
+      "text": "Could you please tell me the name of the pharmacy you want to use for your medication?"
+    },
+    {
+      "timestamp": "2026-06-27T00:28:52+00:00",
+      "speaker": "Patient",
+      "text": "CVS on Main Street, the one near the plaza. And for the appointment, I think Tuesday morning would be preferable if that's available.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:29:03+00:00",
+      "speaker": "Agent",
+      "text": "Cross streets or nearby stores, that would help too. If you have their phone or fax number, please share that as well."
+    },
+    {
+      "timestamp": "2026-06-27T00:29:06+00:00",
+      "speaker": "Patient",
+      "text": "It's the CVS across from the grocery store on the corner of Main and Oak. I don't have the number handy, sorry. Is Tuesday morning open for an appointment?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:29:14+00:00",
+      "speaker": "Agent",
+      "text": "Thanks for that detail."
+    },
+    {
+      "timestamp": "2026-06-27T00:29:18+00:00",
+      "speaker": "Patient",
+      "text": "Sure. So, Tuesday morning would be great. Can we lock that in?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:29:24+00:00",
+      "speaker": "Agent",
+      "text": "ZIP code or phone number that would help as well."
+    },
+    {
+      "timestamp": "2026-06-27T00:29:30+00:00",
+      "speaker": "Patient",
+      "text": "I'm sorry, I don't have the ZIP code or phone number for the CVS right now, but I can look it up if you really need it. Is there anything else you need from me to get the refill and set up that Tuesday morning appointment?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:29:52+00:00",
+      "speaker": "Agent",
+      "text": "I do need the city and state where the CDs is located to make sure your prescription goes to the right place."
+    },
+    {
+      "timestamp": "2026-06-27T00:29:56+00:00",
+      "speaker": "Patient",
+      "text": "It's in Dallas, Texas. That should be the CVS on Main and Oak. Are we set for Tuesday morning?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:30:23+00:00",
+      "speaker": "Agent",
+      "text": "There are several CVS locations in Dallas, Texas. But I do not see 1 list at Main and Oaks could you let me know if a CVS is inside another store like Target or if you remember any nearby landmarks or the grocery store's name?"
+    },
+    {
+      "timestamp": "2026-06-27T00:30:27+00:00",
+      "speaker": "Patient",
+      "text": "Could you repeat that?",
+      "meta": {
+        "end_call": true
+      }
+    }
+  ],
+  "recording": {
+    "recording_sid": "RE2a7ec697be21b1a31b5728e6a59a6def",
+    "recording_status": "completed",
+    "recording_duration": "256",
+    "updated_at": "2026-06-27T00:30:33+00:00",
+    "local_path": "/Users/chenchaoshiang/SideProject/PrettyGoodAI/recordings/unusual_edge_case_20260627_002612.mp3",
+    "downloaded_at": "2026-06-27T00:30:38+00:00"
+  },
+  "started_at": "2026-06-27T00:26:12+00:00",
+  "updated_at": "2026-06-27T00:30:27+00:00"
+}

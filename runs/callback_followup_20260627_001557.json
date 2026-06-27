@@ -1,0 +1,165 @@
+{
+  "artifact_id": "callback_followup_20260627_001557",
+  "call_sid": "CA06d6fbfe472f57b4ff397d2b3446299c",
+  "scenario_key": "callback_followup",
+  "scenario": {
+    "name": "Callback follow-up",
+    "goal": "Confirm a callback request and leave the conversation with the right next step.",
+    "end_when": [
+      "The office confirms when to expect a callback.",
+      "The follow-up question has been answered."
+    ],
+    "details": [
+      "Avery missed a call from the office and is calling back.",
+      "Avery wants to know who will call back and when.",
+      "Avery should sound calm and slightly cautious."
+    ]
+  },
+  "events": [
+    {
+      "timestamp": "2026-06-27T00:16:03+00:00",
+      "speaker": "Agent",
+      "text": "call may be recorded for quality and training purposes, but"
+    },
+    {
+      "timestamp": "2026-06-27T00:16:05+00:00",
+      "speaker": "Patient",
+      "text": "Understood. I'm returning the call I missed earlier. Could you tell me who will be calling me back and around what time?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:16:12+00:00",
+      "speaker": "Agent",
+      "text": "Part of pretty good. AI. Am I speaking with Jordan"
+    },
+    {
+      "timestamp": "2026-06-27T00:16:16+00:00",
+      "speaker": "Patient",
+      "text": "Could you repeat that?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:16:28+00:00",
+      "speaker": "Agent",
+      "text": "Of course, this is Pivot Point Orthopedics. My speaking with Jordan"
+    },
+    {
+      "timestamp": "2026-06-27T00:16:31+00:00",
+      "speaker": "Patient",
+      "text": "Could you repeat that?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:16:36+00:00",
+      "speaker": "Agent",
+      "text": "Is this Jordan on the line?"
+    },
+    {
+      "timestamp": "2026-06-27T00:16:44+00:00",
+      "speaker": "Patient",
+      "text": "Could you repeat that?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:16:51+00:00",
+      "speaker": "Agent",
+      "text": "Please tell me your date of birth."
+    },
+    {
+      "timestamp": "2026-06-27T00:16:54+00:00",
+      "speaker": "Patient",
+      "text": "My date of birth is October 14, 1992. But I'm still wondering\u2014can you tell me who will",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:17:12+00:00",
+      "speaker": "Agent",
+      "text": "The birth date is a matcha records. But for demo purposes, I'll accept it. How can I help you today?"
+    },
+    {
+      "timestamp": "2026-06-27T00:17:15+00:00",
+      "speaker": "Patient",
+      "text": "I missed a call from your office earlier. Can you tell me who called and when I should expect a callback?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:17:32+00:00",
+      "speaker": "Agent",
+      "text": "I don't have access to see exactly who called you or the reason for the call. I can let our Clinic support team know you're waiting for a call back."
+    },
+    {
+      "timestamp": "2026-06-27T00:17:34+00:00",
+      "speaker": "Patient",
+      "text": "That sounds good. Can you let me know roughly when the support team would call me back? Like later today or tomorrow?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:17:57+00:00",
+      "speaker": "Agent",
+      "text": "The support team usually calls back as soon as possible often the same day, if you call during business hours, I'll let them know your way for a call back."
+    },
+    {
+      "timestamp": "2026-06-27T00:18:00+00:00",
+      "speaker": "Patient",
+      "text": "Could you repeat that?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:18:10+00:00",
+      "speaker": "Agent",
+      "text": "The support team will try to call you back as soon as possible. Usually the same day, if it's during business hours."
+    },
+    {
+      "timestamp": "2026-06-27T00:18:12+00:00",
+      "speaker": "Patient",
+      "text": "Thank you, that helps. I'll watch for the call from the support team.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:18:22+00:00",
+      "speaker": "Agent",
+      "text": "You're all set, the team will reach out soon."
+    },
+    {
+      "timestamp": "2026-06-27T00:18:24+00:00",
+      "speaker": "Patient",
+      "text": "Great, thanks for your help. I'll wait for their call.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:18:27+00:00",
+      "speaker": "Patient",
+      "text": "Sorry, I did not catch that. Could you say that again?"
+    }
+  ],
+  "recording": {
+    "recording_sid": "REad012fe17f130676036edc31900ae81e",
+    "recording_status": "completed",
+    "recording_duration": "150",
+    "updated_at": "2026-06-27T00:18:32+00:00",
+    "local_path": "/Users/chenchaoshiang/SideProject/PrettyGoodAI/recordings/callback_followup_20260627_001557.mp3",
+    "downloaded_at": "2026-06-27T00:18:35+00:00"
+  },
+  "started_at": "2026-06-27T00:15:57+00:00",
+  "updated_at": "2026-06-27T00:18:27+00:00"
+}

@@ -1,0 +1,15 @@
+[2026-06-26T23:43:53+00:00] Agent: Call may be recorded for quality and training purposes.
+[2026-06-26T23:43:57+00:00] Patient: I need a refill on my blood pressure medication, but I'm not sure if I need to come in for an appointment first.
+[2026-06-26T23:44:02+00:00] Agent: Am I speaking with Jordan?
+[2026-06-26T23:44:07+00:00] Patient: No, this is Avery Chen. I'm calling about a refill for my blood pressure medication.
+[2026-06-26T23:44:23+00:00] Agent: Please provide the full name and date of birth of the patient needing a refill.
+[2026-06-26T23:44:25+00:00] Patient: Sure, my full name is Avery Chen and my date of birth is March 15, 1982.
+[2026-06-26T23:44:46+00:00] Agent: Just to confirm, I have your name as Avery Chen and your date of birth as March 15th 1982. Is that correct? If so, please spell your first and last name for me,
+[2026-06-26T23:44:47+00:00] Patient: Yes, that's correct. My first name is spelled A-V-E-R-Y, and my last name is C-H-E-N.
+[2026-06-26T23:45:12+00:00] Agent: I have your phone number is 817-406-8089 and your date of birth is March 15th 1982.
+[2026-06-26T23:45:14+00:00] Patient: That phone number sounds right. So can you tell me if I need an appointment before you can process the refill, and about how long it usually takes?
+[2026-06-26T23:45:27+00:00] Agent: I can't receive further right now but I can make sure our clitics support team follows up with you.
+[2026-06-26T23:45:29+00:00] Patient: I appreciate that, but I still don't know if I need an appointment or how long the refill usually takes. Can you clarify before I hang up?
+[2026-06-26T23:45:38+00:00] Agent: Connecting you to a representative please wait hello you reached the pretty good. AI test line goodbye.
+[2026-06-26T23:45:41+00:00] Patient: Could you repeat that?
+[2026-06-26T23:45:47+00:00] Patient: Sorry, I did not catch that. Could you say that again?

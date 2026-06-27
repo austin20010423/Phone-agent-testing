@@ -1,0 +1,147 @@
+{
+  "artifact_id": "location_info_20260626_235615",
+  "call_sid": "CA0210325e2dec3d82da26abccbdfd1db3",
+  "scenario_key": "location_info",
+  "scenario": {
+    "name": "Ask about location",
+    "goal": "Confirm the clinic location and parking instructions.",
+    "end_when": [
+      "The clinic address or location is confirmed.",
+      "Parking or entrance instructions are understood."
+    ],
+    "details": [
+      "Avery is driving from across town.",
+      "Avery asks for the main entrance.",
+      "Avery may ask whether there is free parking."
+    ]
+  },
+  "events": [
+    {
+      "timestamp": "2026-06-26T23:56:21+00:00",
+      "speaker": "Agent",
+      "text": "Call may be recorded for quality and training purposes."
+    },
+    {
+      "timestamp": "2026-06-26T23:56:24+00:00",
+      "speaker": "Patient",
+      "text": "Oh, okay. I\u2019m actually driving from across town\u2014can you tell me where your clinic is located?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:56:28+00:00",
+      "speaker": "Agent",
+      "text": "Part of pretty good. AI. Am I speaking with Jordan"
+    },
+    {
+      "timestamp": "2026-06-26T23:56:30+00:00",
+      "speaker": "Patient",
+      "text": "Yes, this is Avery. I\u2019m trying to get to your clinic \u2014 could you give me the address and let me know about parking?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:56:41+00:00",
+      "speaker": "Agent",
+      "text": "Please provide the patient's full name and date of birth."
+    },
+    {
+      "timestamp": "2026-06-26T23:56:43+00:00",
+      "speaker": "Patient",
+      "text": "Sure, it's Avery Chen, date of birth March 15, 1988.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:56:59+00:00",
+      "speaker": "Agent",
+      "text": "Could you please spell out your first and last name for me just to make sure I have it, correct?"
+    },
+    {
+      "timestamp": "2026-06-26T23:57:01+00:00",
+      "speaker": "Patient",
+      "text": "A-V-E-R-Y C-H-E-N. So, do you have free parking at the clinic?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:57:24+00:00",
+      "speaker": "Agent",
+      "text": "I can help with your parking question after we finish. Verifying your information. Would you like to use your phone number to look up your record if so, please provide the number you have on file with us."
+    },
+    {
+      "timestamp": "2026-06-26T23:57:30+00:00",
+      "speaker": "Patient",
+      "text": "Yes, it should be 555-123-4567. And I\u2019d really like to know about parking and where the main entrance is before I head over.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:57:55+00:00",
+      "speaker": "Agent",
+      "text": "I have your phone number is 5551234567 and your date of birth as March 15th. 1988. Is that correct?"
+    },
+    {
+      "timestamp": "2026-06-26T23:57:59+00:00",
+      "speaker": "Patient",
+      "text": "Yes, that's all correct. So, can you tell me the clinic address and if there's free parking? I'm coming from across town.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:58:16+00:00",
+      "speaker": "Agent",
+      "text": "Yes, there is free patient parking available in the surface lot in front of the building."
+    },
+    {
+      "timestamp": "2026-06-26T23:58:20+00:00",
+      "speaker": "Patient",
+      "text": "Great, thanks. And where should I go for the main entrance? Is it clearly marked from the parking lot?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:58:26+00:00",
+      "speaker": "Agent",
+      "text": "And had."
+    },
+    {
+      "timestamp": "2026-06-26T23:58:32+00:00",
+      "speaker": "Patient",
+      "text": "Sorry, I missed that \u2014 could you repeat where the main entrance is and if it's easy to find from the parking lot?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-26T23:58:49+00:00",
+      "speaker": "Agent",
+      "text": "The main entrance is through the lobby of the recovery Plaza. Medical building the parking lot is right in front so it's easy to access"
+    },
+    {
+      "timestamp": "2026-06-26T23:58:54+00:00",
+      "speaker": "Patient",
+      "text": "Perfect, that sounds straightforward. So the clinic is in the Recovery Plaza Medical Building, with free parking right in front and the main entrance through the lobby \u2014 got it. Thanks for the help.",
+      "meta": {
+        "end_call": true
+      }
+    }
+  ],
+  "recording": {
+    "recording_sid": "RE302f61099d3dbd0fba8bb95c4481e66f",
+    "recording_status": "completed",
+    "recording_duration": "170",
+    "updated_at": "2026-06-26T23:59:10+00:00",
+    "local_path": "/Users/chenchaoshiang/SideProject/PrettyGoodAI/recordings/location_info_20260626_235615.mp3",
+    "downloaded_at": "2026-06-26T23:59:13+00:00"
+  },
+  "started_at": "2026-06-26T23:56:15+00:00",
+  "updated_at": "2026-06-26T23:58:54+00:00"
+}

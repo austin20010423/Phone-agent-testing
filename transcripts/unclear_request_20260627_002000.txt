@@ -1,0 +1,24 @@
+[2026-06-27T00:20:07+00:00] Agent: This call may be recorded for quality and training purposes.
+[2026-06-27T00:20:09+00:00] Patient: I need help with a thing, I'm not really sure how to describe it.
+[2026-06-27T00:20:15+00:00] Agent: You go to AI. Am I speaking with Jordan
+[2026-06-27T00:20:18+00:00] Patient: No, this is Avery Chen. I just need some help with something medical, but I'm not sure exactly who I should talk to or what the problem is called.
+[2026-06-27T00:20:34+00:00] Agent: No problem Avery. I can help get you to the right place.
+[2026-06-27T00:20:39+00:00] Patient: Thanks. So I've been having this weird thing with my arm — it feels kind of heavy and tingly sometimes, but it's not like an injury or anything. I don't know if that's something you guys handle or if I need to see someone else.
+[2026-06-27T00:21:05+00:00] Agent: Point Orthopedics treats, a wide range of joint. Muscle and nerve issues, including symptoms, like having a or tingling in the arm.
+[2026-06-27T00:21:09+00:00] Patient: Oh okay, so orthopedics might be the right place then. What do I need to do to get seen for something like that?
+[2026-06-27T00:21:22+00:00] Agent: Would like to schedule an appointment to have. Would you like to schedule an appointment to have your arm checked out? Or would you prefer to speak with a provider first about your symptoms?
+[2026-06-27T00:21:25+00:00] Patient: I think scheduling an appointment makes sense if you think this is something you guys can help with. How long would I have to wait to get in?
+[2026-06-27T00:21:39+00:00] Agent: Please provide your date of birth.
+[2026-06-27T00:21:43+00:00] Patient: Sure, it's May 14, 1991.
+[2026-06-27T00:22:01+00:00] Agent: Just to confirm I have your name is Avery Chen and your date of birth as May 14th. 1991. Is that correct? If so, could you please spell your first and last name for me
+[2026-06-27T00:22:05+00:00] Patient: Yes, that's right. My first name is A-V-E-R-Y, and last name is C-H-E-N.
+[2026-06-27T00:22:22+00:00] Agent: Would you like to use your phone number to look up your record?
+[2026-06-27T00:22:26+00:00] Patient: Yeah, that should work. It's 555-123-4567.
+[2026-06-27T00:22:34+00:00] Agent: Not sure. Just let please tell me the phone number. You have on file with us.
+[2026-06-27T00:22:38+00:00] Patient: Yeah, that should work. It's 555-123-4567.
+[2026-06-27T00:22:59+00:00] Agent: I have your phone number as 5551234567 and your date of birth is May 14th. 1991. Is that correct?
+[2026-06-27T00:23:02+00:00] Patient: Yes, that's all correct.
+[2026-06-27T00:23:14+00:00] Agent: I can't receive further right now, but I can make sure our Clinic support team Falls up with you.
+[2026-06-27T00:23:17+00:00] Patient: Okay, that works. So I just wait for them to call me, or is there anything else I need to do on my end?
+[2026-06-27T00:23:31+00:00] Agent: Connecting you to a representative please. Wait hello you've reached the pretty good. AI test line goodbye.
+[2026-06-27T00:23:34+00:00] Patient: Okay, thanks for your help. I'll wait for the follow-up call.

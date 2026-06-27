@@ -1,0 +1,100 @@
+{
+  "artifact_id": "callback_followup_20260627_001037",
+  "call_sid": "CA14edfdaa662641574c4988e22d2ce540",
+  "scenario_key": "callback_followup",
+  "scenario": {
+    "name": "Callback follow-up",
+    "goal": "Confirm a callback request and leave the conversation with the right next step.",
+    "end_when": [
+      "The office confirms when to expect a callback.",
+      "The follow-up question has been answered."
+    ],
+    "details": [
+      "Avery missed a call from the office and is calling back.",
+      "Avery wants to know who will call back and when.",
+      "Avery should sound calm and slightly cautious."
+    ]
+  },
+  "events": [
+    {
+      "timestamp": "2026-06-27T00:10:43+00:00",
+      "speaker": "Agent",
+      "text": "Call may be recorded for quality and training purposes."
+    },
+    {
+      "timestamp": "2026-06-27T00:10:48+00:00",
+      "speaker": "Patient",
+      "text": "I missed a call from your office earlier. I'm calling back to find out who will be calling me and when I should expect that call.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:10:59+00:00",
+      "speaker": "Agent",
+      "text": "Can you please provide your date of birth?"
+    },
+    {
+      "timestamp": "2026-06-27T00:11:00+00:00",
+      "speaker": "Patient",
+      "text": "It's July 14, 1985.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:11:11+00:00",
+      "speaker": "Agent",
+      "text": "The birth date doesn't match our records, but for demo purposes, I'll accept it."
+    },
+    {
+      "timestamp": "2026-06-27T00:11:14+00:00",
+      "speaker": "Patient",
+      "text": "Thank you. So, can you let me know who will be calling me and what time I should expect the callback?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:11:20+00:00",
+      "speaker": "Agent",
+      "text": "To check for messages. You're welcome. Is there anything else I can help you with today?"
+    },
+    {
+      "timestamp": "2026-06-27T00:11:25+00:00",
+      "speaker": "Patient",
+      "text": "{\"reply\": \"I'm sorry, but I don't think that answered my question. I'd like to know who will be calling me back and around what time I should expect that call.\", \"end_call",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:11:44+00:00",
+      "speaker": "Patient",
+      "text": "Sorry, I did not catch that. Could you say that again?"
+    },
+    {
+      "timestamp": "2026-06-27T00:11:52+00:00",
+      "speaker": "Agent",
+      "text": "I've let our clitics, no worries at all. If you have more questions or need anything else, just let me know."
+    },
+    {
+      "timestamp": "2026-06-27T00:12:09+00:00",
+      "speaker": "Patient",
+      "text": "I appreciate that, but I still need to know who will be calling me back and when I should expect the callback. Could you check that for me?",
+      "meta": {
+        "end_call": false
+      }
+    }
+  ],
+  "recording": {
+    "recording_sid": "REb0bece803837f94d40b745d9387beb51",
+    "recording_status": "completed",
+    "recording_duration": "94",
+    "updated_at": "2026-06-27T00:12:16+00:00",
+    "local_path": "/Users/chenchaoshiang/SideProject/PrettyGoodAI/recordings/callback_followup_20260627_001037.mp3",
+    "downloaded_at": "2026-06-27T00:12:18+00:00"
+  },
+  "started_at": "2026-06-27T00:10:37+00:00",
+  "updated_at": "2026-06-27T00:12:09+00:00"
+}

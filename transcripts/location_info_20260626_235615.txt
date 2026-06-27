@@ -1,0 +1,18 @@
+[2026-06-26T23:56:21+00:00] Agent: Call may be recorded for quality and training purposes.
+[2026-06-26T23:56:24+00:00] Patient: Oh, okay. I’m actually driving from across town—can you tell me where your clinic is located?
+[2026-06-26T23:56:28+00:00] Agent: Part of pretty good. AI. Am I speaking with Jordan
+[2026-06-26T23:56:30+00:00] Patient: Yes, this is Avery. I’m trying to get to your clinic — could you give me the address and let me know about parking?
+[2026-06-26T23:56:41+00:00] Agent: Please provide the patient's full name and date of birth.
+[2026-06-26T23:56:43+00:00] Patient: Sure, it's Avery Chen, date of birth March 15, 1988.
+[2026-06-26T23:56:59+00:00] Agent: Could you please spell out your first and last name for me just to make sure I have it, correct?
+[2026-06-26T23:57:01+00:00] Patient: A-V-E-R-Y C-H-E-N. So, do you have free parking at the clinic?
+[2026-06-26T23:57:24+00:00] Agent: I can help with your parking question after we finish. Verifying your information. Would you like to use your phone number to look up your record if so, please provide the number you have on file with us.
+[2026-06-26T23:57:30+00:00] Patient: Yes, it should be 555-123-4567. And I’d really like to know about parking and where the main entrance is before I head over.
+[2026-06-26T23:57:55+00:00] Agent: I have your phone number is 5551234567 and your date of birth as March 15th. 1988. Is that correct?
+[2026-06-26T23:57:59+00:00] Patient: Yes, that's all correct. So, can you tell me the clinic address and if there's free parking? I'm coming from across town.
+[2026-06-26T23:58:16+00:00] Agent: Yes, there is free patient parking available in the surface lot in front of the building.
+[2026-06-26T23:58:20+00:00] Patient: Great, thanks. And where should I go for the main entrance? Is it clearly marked from the parking lot?
+[2026-06-26T23:58:26+00:00] Agent: And had.
+[2026-06-26T23:58:32+00:00] Patient: Sorry, I missed that — could you repeat where the main entrance is and if it's easy to find from the parking lot?
+[2026-06-26T23:58:49+00:00] Agent: The main entrance is through the lobby of the recovery Plaza. Medical building the parking lot is right in front so it's easy to access
+[2026-06-26T23:58:54+00:00] Patient: Perfect, that sounds straightforward. So the clinic is in the Recovery Plaza Medical Building, with free parking right in front and the main entrance through the lobby — got it. Thanks for the help.

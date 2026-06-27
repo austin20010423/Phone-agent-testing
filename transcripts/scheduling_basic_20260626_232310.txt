@@ -1,0 +1,26 @@
+[2026-06-26T23:23:16+00:00] Agent: Call may be recorded for quality and training purposes.
+[2026-06-26T23:23:17+00:00] Patient: Sure, that's fine.
+[2026-06-26T23:23:21+00:00] Agent: Orthopedics, part of pretty good. AI.
+[2026-06-26T23:23:28+00:00] Patient: I'm calling to schedule a routine appointment for next week. I'd prefer Tuesday or Thursday morning if you have availability.
+[2026-06-26T23:23:43+00:00] Agent: Can you please provide your date of birth?
+[2026-06-26T23:23:50+00:00] Patient: Yes, it's March 14, 1989.
+[2026-06-26T23:23:55+00:00] Agent: Tell me your date of birth.
+[2026-06-26T23:24:01+00:00] Patient: It's March 14, 1989.
+[2026-06-26T23:24:18+00:00] Agent: Thank you. Just to confirm you'd like to schedule a general office, visit for routine care next week, preferably Tuesday, or Thursday morning.
+[2026-06-26T23:24:24+00:00] Patient: That's correct. Do you have any openings on Tuesday or Thursday morning next week?
+[2026-06-26T23:24:37+00:00] Agent: Let me check for available appointments on Tuesday or Thursday morning next week.
+[2026-06-26T23:24:44+00:00] Patient: Sure, take your time.
+[2026-06-26T23:24:50+00:00] Agent: Or cancel your existing appointment or I can transfer you to a team member for further help.
+[2026-06-26T23:24:55+00:00] Patient: I don't have any existing appointment to cancel. I'd like to schedule a new one for next week, ideally Tuesday or Thursday morning if that's available.
+[2026-06-26T23:25:05+00:00] Agent: Understood. I'll connect you with a team member who can help sort this out.
+[2026-06-26T23:25:12+00:00] Patient: Before you transfer me, could you tell me if there's anything I need to do to prepare for the appointment? Any instructions or documents to bring?
+[2026-06-26T23:25:35+00:00] Agent: For a routine office visit it's best to bring a photo ID, your insurance card and a list of any medications you're taking if you have recent test results or medical records.
+[2026-06-26T23:25:40+00:00] Patient: Thanks, that's helpful. I'll bring those with me. So do you have any Tuesday or Thursday morning slots open next week?
+[2026-06-26T23:25:49+00:00] Agent: Instructions, the team member can confirm those when I transfer you. Would you like to continue with the transfer?
+[2026-06-26T23:25:55+00:00] Patient: Actually, I'd prefer to just confirm the appointment time here if possible. Can you check for Tuesday or Thursday morning next week?
+[2026-06-26T23:26:12+00:00] Agent: I'm unable to book a new routine appointment, because the system shows you already have 1 scheduled.
+[2026-06-26T23:26:19+00:00] Patient: I don't believe I have any scheduled appointment. Could you check the date and time you're seeing? If it's not correct, I'd like to set up a new one for Tuesday or Thursday morning next week.
+[2026-06-26T23:26:29+00:00] Agent: Or schedule your appointment. It looks like our system shows, you already have a routine office visit scheduled, but you mentioned, you do not
+[2026-06-26T23:26:35+00:00] Patient: I really don't think I have one scheduled. Could you double-check that? If it's a mistake, I’d still like to book a Tuesday or Thursday morning slot next week.
+[2026-06-26T23:26:47+00:00] Agent: Connecting you to a representative please. Wait hello you've reached the pretty good. AI test line goodbye.
+[2026-06-26T23:26:52+00:00] Patient: Wait, is this still the scheduler? I need to confirm an appointment time before we hang up.

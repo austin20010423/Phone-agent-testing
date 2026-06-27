@@ -1,0 +1,186 @@
+{
+  "artifact_id": "insurance_question_20260627_000112",
+  "call_sid": "CAdf4715a18b0fa570c42399cc25ab0204",
+  "scenario_key": "insurance_question",
+  "scenario": {
+    "name": "Ask about insurance",
+    "goal": "Confirm whether a specific insurance plan is accepted.",
+    "end_when": [
+      "The office confirms acceptance or gives a clear next step.",
+      "Avery understands who to contact if needed."
+    ],
+    "details": [
+      "Avery has a PPO plan and wants to know if it is accepted.",
+      "Avery asks what information is needed to verify coverage.",
+      "Avery wants a simple, direct answer."
+    ]
+  },
+  "events": [
+    {
+      "timestamp": "2026-06-27T00:01:17+00:00",
+      "speaker": "Agent",
+      "text": "Call may be recorded for quality and training purposes."
+    },
+    {
+      "timestamp": "2026-06-27T00:01:29+00:00",
+      "speaker": "Patient",
+      "text": "Could you repeat that?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:01:37+00:00",
+      "speaker": "Agent",
+      "text": "of course, this is Debbie Point Orthopedics, am I speaking with Jordan"
+    },
+    {
+      "timestamp": "2026-06-27T00:01:46+00:00",
+      "speaker": "Patient",
+      "text": "This is Avery Chen. I'm calling to find out if you accept my insurance plan.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:01:52+00:00",
+      "speaker": "Agent",
+      "text": "Please provide your date of birth."
+    },
+    {
+      "timestamp": "2026-06-27T00:01:53+00:00",
+      "speaker": "Patient",
+      "text": "Sure, it's March 14, 1990.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:02:06+00:00",
+      "speaker": "Agent",
+      "text": "The birthday doesn't match our records, but for demo purposes, I'll accept it."
+    },
+    {
+      "timestamp": "2026-06-27T00:02:09+00:00",
+      "speaker": "Patient",
+      "text": "Thanks. So can you tell me if you accept my PPO insurance plan?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:02:26+00:00",
+      "speaker": "Agent",
+      "text": "Pivot Point Orthopedics, accepts most insurance plans, including many PPO options. Would you like to update or check your insurance details on file?"
+    },
+    {
+      "timestamp": "2026-06-27T00:02:35+00:00",
+      "speaker": "Patient",
+      "text": "Yes, I'd like to check if my specific PPO plan is accepted. What information do you need from me to verify that?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:02:44+00:00",
+      "speaker": "Agent",
+      "text": "Let me send you a secure link by text so you can check if your PPO plan is accepted and update your insurance details if needed."
+    },
+    {
+      "timestamp": "2026-06-27T00:02:45+00:00",
+      "speaker": "Patient",
+      "text": "That sounds good. Just to confirm, you do accept PPO plans, right? And if I have any issues, who should I contact?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:02:53+00:00",
+      "speaker": "Agent",
+      "text": "You currently do not have any insurance on file with us. Would you like to add your PPO insurance by uploading a photo of your card?"
+    },
+    {
+      "timestamp": "2026-06-27T00:02:56+00:00",
+      "speaker": "Patient",
+      "text": "Yes, I can upload a photo. But just to be sure before I do \u2014 do you accept my PPO plan? And if I have any other questions after that, who should I contact?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:03:01+00:00",
+      "speaker": "Agent",
+      "text": "Is that okay?"
+    },
+    {
+      "timestamp": "2026-06-27T00:03:04+00:00",
+      "speaker": "Patient",
+      "text": "Yes, that works. So just to clarify \u2014 you do accept PPO plans, correct? And if I have questions later, who should I contact?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:03:08+00:00",
+      "speaker": "Agent",
+      "text": "I just sent the"
+    },
+    {
+      "timestamp": "2026-06-27T00:03:11+00:00",
+      "speaker": "Patient",
+      "text": "I saw the link, thanks. So can you confirm that my PPO plan is accepted here, and who I should call if I have follow-up questions?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:03:16+00:00",
+      "speaker": "Agent",
+      "text": "If you have any questions about the form, just let me know."
+    },
+    {
+      "timestamp": "2026-06-27T00:03:19+00:00",
+      "speaker": "Patient",
+      "text": "I'll go ahead and upload my card. But I still need a simple yes or no \u2014 do you accept PPO plans? And who do I contact if I have more questions?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:03:30+00:00",
+      "speaker": "Agent",
+      "text": "Yes, we accept many PPO plans."
+    },
+    {
+      "timestamp": "2026-06-27T00:03:34+00:00",
+      "speaker": "Patient",
+      "text": "Great, thank you for confirming. And if I have any further questions, who should I contact?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:03:51+00:00",
+      "speaker": "Agent",
+      "text": "Office directly for any questions or reply to the text message. You received someone from our team will help you."
+    },
+    {
+      "timestamp": "2026-06-27T00:03:54+00:00",
+      "speaker": "Patient",
+      "text": "Got it, thanks. I'll upload my card and reach out if I need anything else.",
+      "meta": {
+        "end_call": true
+      }
+    }
+  ],
+  "recording": {
+    "recording_sid": "RE483a7c99f943968306cc234b88335996",
+    "recording_status": "completed",
+    "recording_duration": "168",
+    "updated_at": "2026-06-27T00:04:05+00:00",
+    "local_path": "/Users/chenchaoshiang/SideProject/PrettyGoodAI/recordings/insurance_question_20260627_000112.mp3",
+    "downloaded_at": "2026-06-27T00:04:08+00:00"
+  },
+  "started_at": "2026-06-27T00:01:12+00:00",
+  "updated_at": "2026-06-27T00:03:54+00:00"
+}

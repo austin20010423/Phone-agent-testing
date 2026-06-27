@@ -1,0 +1,186 @@
+{
+  "artifact_id": "unclear_request_20260627_002000",
+  "call_sid": "CAa9098e9054677e635e8c2ccc1be6afb4",
+  "scenario_key": "unclear_request",
+  "scenario": {
+    "name": "Unclear request scenario",
+    "goal": "Clarify a vague request and get to the correct service.",
+    "end_when": [
+      "The office has identified the correct service or department.",
+      "Avery understands the next step."
+    ],
+    "details": [
+      "Avery starts with an unclear complaint, like 'I need help with a thing.'",
+      "Avery answers follow-up questions and becomes clearer over time.",
+      "Avery is trying to avoid sounding scripted."
+    ]
+  },
+  "events": [
+    {
+      "timestamp": "2026-06-27T00:20:07+00:00",
+      "speaker": "Agent",
+      "text": "This call may be recorded for quality and training purposes."
+    },
+    {
+      "timestamp": "2026-06-27T00:20:09+00:00",
+      "speaker": "Patient",
+      "text": "I need help with a thing, I'm not really sure how to describe it.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:20:15+00:00",
+      "speaker": "Agent",
+      "text": "You go to AI. Am I speaking with Jordan"
+    },
+    {
+      "timestamp": "2026-06-27T00:20:18+00:00",
+      "speaker": "Patient",
+      "text": "No, this is Avery Chen. I just need some help with something medical, but I'm not sure exactly who I should talk to or what the problem is called.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:20:34+00:00",
+      "speaker": "Agent",
+      "text": "No problem Avery. I can help get you to the right place."
+    },
+    {
+      "timestamp": "2026-06-27T00:20:39+00:00",
+      "speaker": "Patient",
+      "text": "Thanks. So I've been having this weird thing with my arm \u2014 it feels kind of heavy and tingly sometimes, but it's not like an injury or anything. I don't know if that's something you guys handle or if I need to see someone else.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:21:05+00:00",
+      "speaker": "Agent",
+      "text": "Point Orthopedics treats, a wide range of joint. Muscle and nerve issues, including symptoms, like having a or tingling in the arm."
+    },
+    {
+      "timestamp": "2026-06-27T00:21:09+00:00",
+      "speaker": "Patient",
+      "text": "Oh okay, so orthopedics might be the right place then. What do I need to do to get seen for something like that?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:21:22+00:00",
+      "speaker": "Agent",
+      "text": "Would like to schedule an appointment to have. Would you like to schedule an appointment to have your arm checked out? Or would you prefer to speak with a provider first about your symptoms?"
+    },
+    {
+      "timestamp": "2026-06-27T00:21:25+00:00",
+      "speaker": "Patient",
+      "text": "I think scheduling an appointment makes sense if you think this is something you guys can help with. How long would I have to wait to get in?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:21:39+00:00",
+      "speaker": "Agent",
+      "text": "Please provide your date of birth."
+    },
+    {
+      "timestamp": "2026-06-27T00:21:43+00:00",
+      "speaker": "Patient",
+      "text": "Sure, it's May 14, 1991.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:22:01+00:00",
+      "speaker": "Agent",
+      "text": "Just to confirm I have your name is Avery Chen and your date of birth as May 14th. 1991. Is that correct? If so, could you please spell your first and last name for me"
+    },
+    {
+      "timestamp": "2026-06-27T00:22:05+00:00",
+      "speaker": "Patient",
+      "text": "Yes, that's right. My first name is A-V-E-R-Y, and last name is C-H-E-N.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:22:22+00:00",
+      "speaker": "Agent",
+      "text": "Would you like to use your phone number to look up your record?"
+    },
+    {
+      "timestamp": "2026-06-27T00:22:26+00:00",
+      "speaker": "Patient",
+      "text": "Yeah, that should work. It's 555-123-4567.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:22:34+00:00",
+      "speaker": "Agent",
+      "text": "Not sure. Just let please tell me the phone number. You have on file with us."
+    },
+    {
+      "timestamp": "2026-06-27T00:22:38+00:00",
+      "speaker": "Patient",
+      "text": "Yeah, that should work. It's 555-123-4567.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:22:59+00:00",
+      "speaker": "Agent",
+      "text": "I have your phone number as 5551234567 and your date of birth is May 14th. 1991. Is that correct?"
+    },
+    {
+      "timestamp": "2026-06-27T00:23:02+00:00",
+      "speaker": "Patient",
+      "text": "Yes, that's all correct.",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:23:14+00:00",
+      "speaker": "Agent",
+      "text": "I can't receive further right now, but I can make sure our Clinic support team Falls up with you."
+    },
+    {
+      "timestamp": "2026-06-27T00:23:17+00:00",
+      "speaker": "Patient",
+      "text": "Okay, that works. So I just wait for them to call me, or is there anything else I need to do on my end?",
+      "meta": {
+        "end_call": false
+      }
+    },
+    {
+      "timestamp": "2026-06-27T00:23:31+00:00",
+      "speaker": "Agent",
+      "text": "Connecting you to a representative please. Wait hello you've reached the pretty good. AI test line goodbye."
+    },
+    {
+      "timestamp": "2026-06-27T00:23:34+00:00",
+      "speaker": "Patient",
+      "text": "Okay, thanks for your help. I'll wait for the follow-up call.",
+      "meta": {
+        "end_call": true
+      }
+    }
+  ],
+  "recording": {
+    "recording_sid": "RE976cc393f307ad1ffade33bcd4290108",
+    "recording_status": "completed",
+    "recording_duration": "218",
+    "updated_at": "2026-06-27T00:23:43+00:00",
+    "local_path": "/Users/chenchaoshiang/SideProject/PrettyGoodAI/recordings/unclear_request_20260627_002000.mp3",
+    "downloaded_at": "2026-06-27T00:23:47+00:00"
+  },
+  "started_at": "2026-06-27T00:20:00+00:00",
+  "updated_at": "2026-06-27T00:23:34+00:00"
+}

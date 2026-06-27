@@ -123,7 +123,7 @@ Available scenarios live in `scenarios.yaml`, for example:
 - `office_hours`
 - `location_info`
 - `insurance_question`
-- `interrupting_correction`
+- `callback_followup`
 - `unclear_request`
 - `unusual_edge_case`
 
@@ -157,4 +157,3 @@ uv run pgaibot download-recording <scenario>_<timestamp>
 - The patient listens first, then answers.
 - The patient does not greet the agent with a generic hello; it begins with the actual request or response.
 - The implementation is focused on producing the required 10 recorded conversations and supporting artifacts.
-

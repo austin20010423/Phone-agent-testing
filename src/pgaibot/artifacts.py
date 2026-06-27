@@ -20,7 +20,7 @@ def ensure_artifact_dirs() -> None:
 
 def build_artifact_id(scenario_key: str) -> str:
     slug = safe_name(scenario_key)
-    stamp = datetime.now(UTC).strftime("%Y%m%dT%H%M%SZ")
+    stamp = datetime.now(UTC).strftime("%Y%m%d_%H%M%S")
     return f"{slug}_{stamp}"
 
 

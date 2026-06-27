@@ -1,0 +1,23 @@
+[2026-06-26T23:49:20+00:00] Agent: Call may be recorded for quality and training purposes.
+[2026-06-26T23:49:23+00:00] Patient: Could you repeat that?
+[2026-06-26T23:49:30+00:00] Agent: Of pretty good. AI. Am I speaking with Jordan
+[2026-06-26T23:49:33+00:00] Patient: Could you repeat that?
+[2026-06-26T23:49:40+00:00] Agent: Of course, this is Pivot Point Orthopedics.
+[2026-06-26T23:49:42+00:00] Patient: Got it. I’m calling to check your office hours—what days are you open during the week and on Saturdays?
+[2026-06-26T23:50:00+00:00] Agent: We're open Monday through Friday. The clinic is closed. On Saturdays. Would you like details about our weekday hours?
+[2026-06-26T23:50:04+00:00] Patient: Yes, could you tell me the weekday hours and whether you’re open on Saturdays?
+[2026-06-26T23:50:20+00:00] Agent: we're open Monday, Tuesday and Thursday, from 9:00 a.m. to 4:00 p.m. Wednesday from 12:00 p.m. to 7:00 p.m. and Friday from 9:00 a.m. to 12:00 p.m.
+[2026-06-26T23:50:21+00:00] Patient: Thanks. Do you have Saturday hours, and are the phones answered during your lunch break?
+[2026-06-26T23:50:27+00:00] Agent: Is there anything else you would like to? You're welcome. Let me know if you need anything else.
+[2026-06-26T23:50:28+00:00] Patient: I still need to know—do you have Saturday hours, and are the phones answered during lunch?
+[2026-06-26T23:50:41+00:00] Agent: We do not have Saturday hours, the clinic is closed on Saturdays.
+[2026-06-26T23:50:42+00:00] Patient: And are the phones answered during your lunch break, or does the office close for lunch?
+[2026-06-26T23:50:46+00:00] Agent: Regular business.
+[2026-06-26T23:50:48+00:00] Patient: I’m sorry, just to be clear—does that mean phones are still answered during the lunch hour, or does the office close for lunch?
+[2026-06-26T23:50:58+00:00] Agent: Question got cut off, no worries at all. Let me know if you have any other questions.
+[2026-06-26T23:50:59+00:00] Patient: I appreciate that. Can you tell me if someone answers the phones during your lunch break, or if the office is closed for lunch?
+[2026-06-26T23:51:21+00:00] Agent: The office stays open during lunch and phones are answered throughout regular business hours. If you call during those times, someone will be available to help.
+[2026-06-26T23:51:22+00:00] Patient: Great, that answers everything. Thanks for your help.
+[2026-06-26T23:51:31+00:00] Agent: Glad I could help have a great day.
+[2026-06-26T23:51:32+00:00] Patient: Thanks, you too. Bye.
+[2026-06-26T23:51:35+00:00] Patient: Sorry, I did not catch that. Could you say that again?

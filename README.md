@@ -71,7 +71,7 @@ cp .env.example .env
 
 ## Twilio Setup
 
-1. Create or sign in to your Twilio account.
+1. Create or sign in to your Twilio account at the [Twilio Console](https://console.twilio.com/).
 2. Buy one Twilio phone number with voice capability.
 3. Copy your Account SID and Auth Token into `.env`.
 4. Set `TWILIO_FROM_NUMBER` to that Twilio number in E.164 format.

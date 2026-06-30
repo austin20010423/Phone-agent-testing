@@ -1,6 +1,4 @@
-# Pretty Good AI Voice Bot
-
-Python voice bot for the Pretty Good AI engineering challenge.
+# Pretty Good AI Voice Testing Bot
 
 The bot places outbound calls to the challenge test number, runs a scenario-driven patient conversation, records the call, stores transcripts locally, and downloads the completed audio recording after hangup.
 

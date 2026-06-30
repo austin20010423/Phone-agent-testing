@@ -13,6 +13,9 @@ class PatientReply:
     end_call: bool = False
 
 
+SAFE_FALLBACK_UTTERANCE = "Could you repeat that?"
+
+
 class OpenRouterClient:
     def __init__(self, api_key: str, model: str) -> None:
         self.api_key = api_key
@@ -119,18 +122,29 @@ def build_conversation_messages(events: list[dict[str, Any]]) -> list[dict[str, 
 
 def parse_patient_reply(content: Any) -> PatientReply:
     if content is None:
-        return PatientReply(reply="Could you repeat that?", end_call=False)
+        return fallback_patient_reply()
+
     try:
         payload = json.loads(content) if isinstance(content, str) else content
-        reply = str(payload.get("reply", "")).strip()
-        end_call = bool(payload.get("end_call", False))
     except (json.JSONDecodeError, AttributeError, TypeError):
-        reply = str(content).strip()
-        end_call = False
+        return fallback_patient_reply()
 
+    if not isinstance(payload, dict):
+        return fallback_patient_reply()
+
+    reply = payload.get("reply")
+    if not isinstance(reply, str):
+        return fallback_patient_reply()
+
+    reply = reply.strip()
     if not reply:
-        reply = "Could you repeat that?"
-    return PatientReply(reply=reply, end_call=end_call)
+        return fallback_patient_reply()
+
+    return PatientReply(reply=reply, end_call=payload.get("end_call") is True)
+
+
+def fallback_patient_reply() -> PatientReply:
+    return PatientReply(reply=SAFE_FALLBACK_UTTERANCE, end_call=False)
 
 
 class OpenRouterError(RuntimeError):

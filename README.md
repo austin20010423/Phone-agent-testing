@@ -1,36 +1,11 @@
 # Pretty Good AI Voice Testing Bot
 
+## Deliverable Videos
+
+- [App introduction](videos/app_introduction.mp4)
+- [Coding agent usage walkthrough](videos/coding_agent_usage.mp4)
+
 The bot places outbound calls to the challenge test number, runs a scenario-driven patient conversation, records the call, stores transcripts locally, and downloads the completed audio recording after hangup.
-
-## Quick Start
-
-After setup, the normal run path is:
-
-```bash
-uv run pgaibot call --scenario scheduling_basic
-```
-
-That command starts the outbound call using the scenario you choose. The webhook server and tunnel still need to be running in separate terminals for a real conversation.
-
-## What It Uses
-
-- Twilio Programmable Voice for outbound calls, speech gathering, and call recording
-- OpenRouter chat completions for patient responses
-- FastAPI for the webhook server
-- Cloudflare Quick Tunnel or another public HTTPS tunnel for Twilio webhooks
-
-## Current Design
-
-The call flow is intentionally simple:
-
-1. Twilio calls the challenge number.
-2. Twilio requests `/voice/start` from this app.
-3. The app listens first, then starts the conversation with `<Gather input="speech">`.
-4. Twilio sends speech results to `/voice/respond`.
-5. The app sends the recognized speech to OpenRouter.
-6. OpenRouter returns the next patient reply.
-7. The loop continues until the scenario is complete.
-8. After hangup, Twilio sends the recording callback and the app downloads the `.mp3` into `recordings/`.
 
 ## Requirements
 
@@ -39,22 +14,6 @@ The call flow is intentionally simple:
 - A Twilio account with one phone number
 - An OpenRouter API key
 - A public HTTPS tunnel for Twilio webhooks
-
-## Environment Variables
-
-Create a `.env` file from `.env.example` and fill in:
-
-```bash
-TWILIO_ACCOUNT_SID=
-TWILIO_AUTH_TOKEN=
-TWILIO_FROM_NUMBER=
-OPENROUTER_API_KEY=
-OPENROUTER_MODEL=deepseek/deepseek-v4-flash
-PG_TEST_NUMBER=+18054398008
-PUBLIC_BASE_URL=https://your-public-url
-```
-
-`PUBLIC_BASE_URL` must point to your public tunnel URL when running a real scenario call.
 
 ## Setup
 
@@ -75,6 +34,23 @@ cp .env.example .env
 4. Set `TWILIO_FROM_NUMBER` to that Twilio number in E.164 format.
 5. Keep using the same Twilio number for all challenge calls.
 6. If your account is in trial mode, upgrade it if Twilio blocks calls to the challenge test number.
+
+
+## Environment Variables
+
+Create a `.env` file from `.env.example` and fill in:
+
+```bash
+TWILIO_ACCOUNT_SID=
+TWILIO_AUTH_TOKEN=
+TWILIO_FROM_NUMBER=
+OPENROUTER_API_KEY=
+OPENROUTER_MODEL=deepseek/deepseek-v4-flash
+PG_TEST_NUMBER=+18054398008
+PUBLIC_BASE_URL=https://your-public-url
+```
+
+`PUBLIC_BASE_URL` must point to your public tunnel URL when running a real scenario call.
 
 ## Public Webhook URL
 
@@ -149,9 +125,22 @@ uv run pgaibot call --scenario scheduling_basic
 uv run pgaibot download-recording <scenario>_<timestamp>
 ```
 
-## Notes
+## What It Uses
 
-- The bot is designed to avoid over-engineering.
-- The patient listens first, then answers.
-- The patient does not greet the agent with a generic hello; it begins with the actual request or response.
-- The implementation is focused on producing the required 10 recorded conversations and supporting artifacts.
+- Twilio Programmable Voice for outbound calls, speech gathering, and call recording
+- OpenRouter chat completions for patient responses
+- FastAPI for the webhook server
+- Cloudflare Quick Tunnel or another public HTTPS tunnel for Twilio webhooks
+
+## Architecture
+
+The call flow is intentionally simple:
+
+1. Twilio calls the challenge number.
+2. Twilio requests `/voice/start` from this app.
+3. The app listens first, then starts the conversation with `<Gather input="speech">`.
+4. Twilio sends speech results to `/voice/respond`.
+5. The app sends the recognized speech to OpenRouter.
+6. OpenRouter returns the next patient reply.
+7. The loop continues until the scenario is complete.
+8. After hangup, Twilio sends the recording callback and the app downloads the `.mp3` into `recordings/`.
